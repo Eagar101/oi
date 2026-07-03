@@ -44,41 +44,40 @@
 - Python 3.10+
 - Windows / macOS / Linux
 
-### 2. 安装依赖
+### 2. 克隆与安装依赖
 
 ```bash
-cd C:\Users\liu\PycharmProjects\PythonProject
+git clone <your-repo-url>
+cd PythonProject
+
+# 创建并激活虚拟环境
+python -m venv .venv
 .\.venv\Scripts\activate          # Windows PowerShell
 # source .venv/bin/activate       # macOS / Linux
+
 pip install -r requirements.txt
 ```
 
 ### 3. 配置
 
-在项目根目录创建 `.env`：
+复制示例配置并填入真实值：
+
+```bash
+cp .env.example .env              # macOS / Linux
+# copy .env.example .env          # Windows cmd
+# Copy-Item .env.example .env     # Windows PowerShell
+```
+
+编辑 `.env`，至少填写 `ANTHROPIC_API_KEY`：
 
 ```env
-# Anthropic 兼容 API 配置
+# 复制 .env.example 后修改以下关键字段
 ANTHROPIC_API_KEY=your_api_key_here
 ANTHROPIC_BASE_URL=https://opencode.ai/go
-
-# 模型配置
 PLANNER_MODEL=DeepSeek V4 Flash
-PLANNER_TEMPERATURE=0.3
-PLANNER_MAX_TOKENS=2048
-
-# 可选：搜索与持久化
-SEARCH_MAX_RESULTS=5
-SEARCH_DEEP_SEARCH=true
-SEARCH_MAX_ROUNDS=3
-SUMMARY_PERSIST_DIR=./data
-WRITE_OUTPUT_DIR=./reports
-
-# 可选：Web 服务
-JWT_SECRET=change-me-in-production
-MAX_CONCURRENT_PER_USER=2
-MAX_CONCURRENT_TOTAL=10
 ```
+
+其余字段保持默认即可，完整说明见 `.env.example`。
 
 ### 4. 运行
 
@@ -169,8 +168,10 @@ python main.py --no-deep "我要学习Python基础"
 PythonProject/
 ├── main.py                  # CLI 入口
 ├── requirements.txt
-├── .env                     # 配置（需自建）
-├── research.db              # SQLite 数据库（自动生成）
+├── .env.example             # 示例配置（提交到仓库）
+├── .env                     # 真实配置（被 .gitignore 忽略，需自建）
+├── .gitignore
+├── research.db              # SQLite 数据库（运行时自动生成，已忽略）
 │
 ├── planner_agent/           # Planner Agent：拆解关键词+TODO
 │   ├── agent.py

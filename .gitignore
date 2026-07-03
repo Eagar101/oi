@@ -1,0 +1,51 @@
+# ===== 敏感文件 =====
+.env
+.env.local
+.env.*.local
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== 运行时产物 =====
+research.db
+research.db-journal
+*.sqlite
+*.sqlite-journal
+
+# ===== 持久化数据（用户运行后生成）=====
+data/
+reports/
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 测试 / 覆盖率 =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
