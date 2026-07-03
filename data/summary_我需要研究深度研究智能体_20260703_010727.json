@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "created_at": "2026-07-03T01:07:27.971340",
+    "query": "我需要研究深度研究智能体",
+    "node_count": 6,
+    "edge_count": 11
+  },
+  "data": {
+    "nodes": [
+      {
+        "id": "keyword_1",
+        "keyword": "深度研究",
+        "summary": "当前AI领域的深度研究正从概念探讨转向价值落地。基于Google Cloud的185个全球案例及国内千份实践报告，深度研究聚焦于解码AI落地的全路径。建议企业通过分析成功范式与真实场景，制定可对标、可复制的全景解决方案，以拨开数字化转型迷雾，实现技术价值的最大化。",
+        "sources": [
+          {
+            "title": "一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！",
+            "url": "https://zhuanlan.zhihu.com/p/1918763414857159516",
+            "snippet": "Jun 18, 2025 · 1. 什么是智能体 智能体作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。 其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。"
+          },
+          {
+            "title": "2026年智能体AI展望-36氪",
+            "url": "https://m.36kr.com/p/3674170286776964",
+            "snippet": "神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。编者按：告别“提示词工程”，欢迎来到软件 4.0：2026 年，编程的本质将从编写代码彻底转向“编排智能”。文章来自编译。 2024年是AI智能体概念深入人心的一年。那些令人 ..."
+          },
+          {
+            "title": "智能体（人工智能领域中的概念）_百度百科及相关教程与政策定义",
+            "url": "https://baike.baidu.com/item/智能体/9446647",
+            "snippet": "智能体是人工智能领域中一个很重要的概念。任何独立的能够思考并可以同环境交互的实体都可以抽象为智能体。应用架构由用户、智能体、工作环境组成。国家三部门首次官方定义智能体为具备自主感知、记忆、决策、交互与执行能力的智能系统。包含《从零开始构建智能体》教程及菜鸟教程等资源。"
+          },
+          {
+            "title": "Agent.ai | The #1 Professional Network for AI Agents",
+            "url": "https://agent.ai/",
+            "snippet": "This agent helps you build your brand foundation by defining your vision, mission, and key messaging pillars—rooted in your unique value proposition and positioning."
+          },
+          {
+            "title": "AI应用场景全解析：6大领域185个真实案例指南2025",
+            "url": "https://www.betteryeah.com/blog/ai-application-scenarios-complete-guide-185-cases-2025",
+            "snippet": "Dec 3, 2025 · 然而，面对种类繁多的AI技术，企业在选择时往往会遇到一个核心问题，也就是到底哪些具体场景更适宜来运用AI。 本文把Google Cloud发布的185个全球真实AI应用案例当作基础资料，来为企业提供较为全面的AI应用场景指南以及实施路径。"
+          },
+          {
+            "title": "2026 中国企业 AI 应用场景报告：千份实践解码 AI 价值落地全路径",
+            "url": "https://www.163.com/dy/article/KPEHNGOA05566ZHB.html",
+            "snippet": "《2026 年中国企业 AI 应用场景报告》以千份实践案例为基石，以技术趋势为指引，以成功范式为核心，为身处数字化转型浪潮中的企业，拨开 AI 落地的迷雾，提供了可对标、可复制、可落地的全景解决方案。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_2",
+        "keyword": "智能体",
+        "summary": "智能体是能独立思考并与环境交互的AI实体。国家三部门定义其具备自主感知、记忆、决策、交互与执行能力。其核心架构包含环境感知、动态决策、行为执行、记忆存储及工具调用等模块。2024年概念已深入人心，预计2026年编程本质将从写代码转向“编排智能”。建议关注相关教程资源，从零开始构建智能体以适应软件4.0时代。",
+        "sources": [
+          {
+            "title": "一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！",
+            "url": "https://zhuanlan.zhihu.com/p/1918763414857159516",
+            "snippet": "Jun 18, 2025 · 1. 什么是智能体 智能体作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。 其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。"
+          },
+          {
+            "title": "2026年智能体AI展望-36氪",
+            "url": "https://m.36kr.com/p/3674170286776964",
+            "snippet": "神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。编者按：告别“提示词工程”，欢迎来到软件 4.0：2026 年，编程的本质将从编写代码彻底转向“编排智能”。文章来自编译。 2024年是AI智能体概念深入人心的一年。那些令人 ..."
+          },
+          {
+            "title": "智能体（人工智能领域中的概念）_百度百科及相关教程与政策定义",
+            "url": "https://baike.baidu.com/item/智能体/9446647",
+            "snippet": "智能体是人工智能领域中一个很重要的概念。任何独立的能够思考并可以同环境交互的实体都可以抽象为智能体。应用架构由用户、智能体、工作环境组成。国家三部门首次官方定义智能体为具备自主感知、记忆、决策、交互与执行能力的智能系统。包含《从零开始构建智能体》教程及菜鸟教程等资源。"
+          },
+          {
+            "title": "Agent.ai | The #1 Professional Network for AI Agents",
+            "url": "https://agent.ai/",
+            "snippet": "This agent helps you build your brand foundation by defining your vision, mission, and key messaging pillars—rooted in your unique value proposition and positioning."
+          },
+          {
+            "title": "AI应用场景全解析：6大领域185个真实案例指南2025",
+            "url": "https://www.betteryeah.com/blog/ai-application-scenarios-complete-guide-185-cases-2025",
+            "snippet": "Dec 3, 2025 · 然而，面对种类繁多的AI技术，企业在选择时往往会遇到一个核心问题，也就是到底哪些具体场景更适宜来运用AI。 本文把Google Cloud发布的185个全球真实AI应用案例当作基础资料，来为企业提供较为全面的AI应用场景指南以及实施路径。"
+          },
+          {
+            "title": "2026 中国企业 AI 应用场景报告：千份实践解码 AI 价值落地全路径",
+            "url": "https://www.163.com/dy/article/KPEHNGOA05566ZHB.html",
+            "snippet": "《2026 年中国企业 AI 应用场景报告》以千份实践案例为基石，以技术趋势为指引，以成功范式为核心，为身处数字化转型浪潮中的企业，拨开 AI 落地的迷雾，提供了可对标、可复制、可落地的全景解决方案。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_3",
+        "keyword": "研究",
+        "summary": "AI领域的研究正聚焦于智能体演进与企业应用落地。研究指出，2026年技术趋势将从提示词工程转向智能编排。同时，基于千份实践案例和185个全球真实场景的研究，为企业提供了可落地的全景解决方案。建议企业以技术趋势为指引，参考成功范式，研究具体适宜AI的细分场景，制定清晰的实施路径。",
+        "sources": [
+          {
+            "title": "一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！",
+            "url": "https://zhuanlan.zhihu.com/p/1918763414857159516",
+            "snippet": "Jun 18, 2025 · 1. 什么是智能体 智能体作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。 其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。"
+          },
+          {
+            "title": "2026年智能体AI展望-36氪",
+            "url": "https://m.36kr.com/p/3674170286776964",
+            "snippet": "神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。编者按：告别“提示词工程”，欢迎来到软件 4.0：2026 年，编程的本质将从编写代码彻底转向“编排智能”。文章来自编译。 2024年是AI智能体概念深入人心的一年。那些令人 ..."
+          },
+          {
+            "title": "智能体（人工智能领域中的概念）_百度百科及相关教程与政策定义",
+            "url": "https://baike.baidu.com/item/智能体/9446647",
+            "snippet": "智能体是人工智能领域中一个很重要的概念。任何独立的能够思考并可以同环境交互的实体都可以抽象为智能体。应用架构由用户、智能体、工作环境组成。国家三部门首次官方定义智能体为具备自主感知、记忆、决策、交互与执行能力的智能系统。包含《从零开始构建智能体》教程及菜鸟教程等资源。"
+          },
+          {
+            "title": "Agent.ai | The #1 Professional Network for AI Agents",
+            "url": "https://agent.ai/",
+            "snippet": "This agent helps you build your brand foundation by defining your vision, mission, and key messaging pillars—rooted in your unique value proposition and positioning."
+          },
+          {
+            "title": "AI应用场景全解析：6大领域185个真实案例指南2025",
+            "url": "https://www.betteryeah.com/blog/ai-application-scenarios-complete-guide-185-cases-2025",
+            "snippet": "Dec 3, 2025 · 然而，面对种类繁多的AI技术，企业在选择时往往会遇到一个核心问题，也就是到底哪些具体场景更适宜来运用AI。 本文把Google Cloud发布的185个全球真实AI应用案例当作基础资料，来为企业提供较为全面的AI应用场景指南以及实施路径。"
+          },
+          {
+            "title": "2026 中国企业 AI 应用场景报告：千份实践解码 AI 价值落地全路径",
+            "url": "https://www.163.com/dy/article/KPEHNGOA05566ZHB.html",
+            "snippet": "《2026 年中国企业 AI 应用场景报告》以千份实践案例为基石，以技术趋势为指引，以成功范式为核心，为身处数字化转型浪潮中的企业，拨开 AI 落地的迷雾，提供了可对标、可复制、可落地的全景解决方案。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_4",
+        "keyword": "Agent",
+        "summary": "Agent（智能体）作为先进AI实体，正推动软件向4.0时代演进，核心在于“编排智能”而非单纯编写代码。Agent.ai等平台正致力于构建专业网络，帮助用户定义愿景、使命及核心信息以建立品牌基础。建议企业及开发者利用Agent的工具调用与多层级规划能力，告别传统提示词工程，探索Agent在品牌建设与业务编排中的实际应用。",
+        "sources": [
+          {
+            "title": "一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！",
+            "url": "https://zhuanlan.zhihu.com/p/1918763414857159516",
+            "snippet": "Jun 18, 2025 · 1. 什么是智能体 智能体作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。 其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。"
+          },
+          {
+            "title": "2026年智能体AI展望-36氪",
+            "url": "https://m.36kr.com/p/3674170286776964",
+            "snippet": "神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。编者按：告别“提示词工程”，欢迎来到软件 4.0：2026 年，编程的本质将从编写代码彻底转向“编排智能”。文章来自编译。 2024年是AI智能体概念深入人心的一年。那些令人 ..."
+          },
+          {
+            "title": "智能体（人工智能领域中的概念）_百度百科及相关教程与政策定义",
+            "url": "https://baike.baidu.com/item/智能体/9446647",
+            "snippet": "智能体是人工智能领域中一个很重要的概念。任何独立的能够思考并可以同环境交互的实体都可以抽象为智能体。应用架构由用户、智能体、工作环境组成。国家三部门首次官方定义智能体为具备自主感知、记忆、决策、交互与执行能力的智能系统。包含《从零开始构建智能体》教程及菜鸟教程等资源。"
+          },
+          {
+            "title": "Agent.ai | The #1 Professional Network for AI Agents",
+            "url": "https://agent.ai/",
+            "snippet": "This agent helps you build your brand foundation by defining your vision, mission, and key messaging pillars—rooted in your unique value proposition and positioning."
+          },
+          {
+            "title": "AI应用场景全解析：6大领域185个真实案例指南2025",
+            "url": "https://www.betteryeah.com/blog/ai-application-scenarios-complete-guide-185-cases-2025",
+            "snippet": "Dec 3, 2025 · 然而，面对种类繁多的AI技术，企业在选择时往往会遇到一个核心问题，也就是到底哪些具体场景更适宜来运用AI。 本文把Google Cloud发布的185个全球真实AI应用案例当作基础资料，来为企业提供较为全面的AI应用场景指南以及实施路径。"
+          },
+          {
+            "title": "2026 中国企业 AI 应用场景报告：千份实践解码 AI 价值落地全路径",
+            "url": "https://www.163.com/dy/article/KPEHNGOA05566ZHB.html",
+            "snippet": "《2026 年中国企业 AI 应用场景报告》以千份实践案例为基石，以技术趋势为指引，以成功范式为核心，为身处数字化转型浪潮中的企业，拨开 AI 落地的迷雾，提供了可对标、可复制、可落地的全景解决方案。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_5",
+        "keyword": "架构",
+        "summary": "智能体的应用架构由用户、智能体和工作环境组成。其核心功能模块架构包括环境感知、动态决策和行为执行，并深度集成了记忆存储机制、多层级规划策略及工具调用能力。这种架构设计使智能体能够持续感知外部环境并自主决策以达成预设目标。建议在构建智能体时，严格围绕这些核心模块进行架构设计与功能集成。",
+        "sources": [
+          {
+            "title": "一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！",
+            "url": "https://zhuanlan.zhihu.com/p/1918763414857159516",
+            "snippet": "Jun 18, 2025 · 1. 什么是智能体 智能体作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。 其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。"
+          },
+          {
+            "title": "2026年智能体AI展望-36氪",
+            "url": "https://m.36kr.com/p/3674170286776964",
+            "snippet": "神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。编者按：告别“提示词工程”，欢迎来到软件 4.0：2026 年，编程的本质将从编写代码彻底转向“编排智能”。文章来自编译。 2024年是AI智能体概念深入人心的一年。那些令人 ..."
+          },
+          {
+            "title": "智能体（人工智能领域中的概念）_百度百科及相关教程与政策定义",
+            "url": "https://baike.baidu.com/item/智能体/9446647",
+            "snippet": "智能体是人工智能领域中一个很重要的概念。任何独立的能够思考并可以同环境交互的实体都可以抽象为智能体。应用架构由用户、智能体、工作环境组成。国家三部门首次官方定义智能体为具备自主感知、记忆、决策、交互与执行能力的智能系统。包含《从零开始构建智能体》教程及菜鸟教程等资源。"
+          },
+          {
+            "title": "Agent.ai | The #1 Professional Network for AI Agents",
+            "url": "https://agent.ai/",
+            "snippet": "This agent helps you build your brand foundation by defining your vision, mission, and key messaging pillars—rooted in your unique value proposition and positioning."
+          },
+          {
+            "title": "AI应用场景全解析：6大领域185个真实案例指南2025",
+            "url": "https://www.betteryeah.com/blog/ai-application-scenarios-complete-guide-185-cases-2025",
+            "snippet": "Dec 3, 2025 · 然而，面对种类繁多的AI技术，企业在选择时往往会遇到一个核心问题，也就是到底哪些具体场景更适宜来运用AI。 本文把Google Cloud发布的185个全球真实AI应用案例当作基础资料，来为企业提供较为全面的AI应用场景指南以及实施路径。"
+          },
+          {
+            "title": "2026 中国企业 AI 应用场景报告：千份实践解码 AI 价值落地全路径",
+            "url": "https://www.163.com/dy/article/KPEHNGOA05566ZHB.html",
+            "snippet": "《2026 年中国企业 AI 应用场景报告》以千份实践案例为基石，以技术趋势为指引，以成功范式为核心，为身处数字化转型浪潮中的企业，拨开 AI 落地的迷雾，提供了可对标、可复制、可落地的全景解决方案。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_6",
+        "keyword": "应用场景",
+        "summary": "AI应用场景正全面铺开，涵盖6大领域185个真实案例。2026年企业AI应用场景报告基于千份实践，提供了可对标、可复制、可落地的全景解决方案。建议企业在面对繁多的AI技术时，参考Google Cloud等全球真实案例，明确适宜运用AI的具体场景，以技术趋势为指引，借鉴成功范式，制定清晰的实施路径以实现价值落地。",
+        "sources": [
+          {
+            "title": "一文讲清智能体（AI Agent），这是一篇不得不看的干货总结！",
+            "url": "https://zhuanlan.zhihu.com/p/1918763414857159516",
+            "snippet": "Jun 18, 2025 · 1. 什么是智能体 智能体作为先进的人工智能实体，通过持续感知外部环境、自主决策并执行行动来达成预设目标。 其架构具备环境感知、动态决策、行为执行等核心功能模块，并集成记忆存储机制、多层级规划策略及工具调用能力。"
+          },
+          {
+            "title": "2026年智能体AI展望-36氪",
+            "url": "https://m.36kr.com/p/3674170286776964",
+            "snippet": "神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。编者按：告别“提示词工程”，欢迎来到软件 4.0：2026 年，编程的本质将从编写代码彻底转向“编排智能”。文章来自编译。 2024年是AI智能体概念深入人心的一年。那些令人 ..."
+          },
+          {
+            "title": "智能体（人工智能领域中的概念）_百度百科及相关教程与政策定义",
+            "url": "https://baike.baidu.com/item/智能体/9446647",
+            "snippet": "智能体是人工智能领域中一个很重要的概念。任何独立的能够思考并可以同环境交互的实体都可以抽象为智能体。应用架构由用户、智能体、工作环境组成。国家三部门首次官方定义智能体为具备自主感知、记忆、决策、交互与执行能力的智能系统。包含《从零开始构建智能体》教程及菜鸟教程等资源。"
+          },
+          {
+            "title": "Agent.ai | The #1 Professional Network for AI Agents",
+            "url": "https://agent.ai/",
+            "snippet": "This agent helps you build your brand foundation by defining your vision, mission, and key messaging pillars—rooted in your unique value proposition and positioning."
+          },
+          {
+            "title": "AI应用场景全解析：6大领域185个真实案例指南2025",
+            "url": "https://www.betteryeah.com/blog/ai-application-scenarios-complete-guide-185-cases-2025",
+            "snippet": "Dec 3, 2025 · 然而，面对种类繁多的AI技术，企业在选择时往往会遇到一个核心问题，也就是到底哪些具体场景更适宜来运用AI。 本文把Google Cloud发布的185个全球真实AI应用案例当作基础资料，来为企业提供较为全面的AI应用场景指南以及实施路径。"
+          },
+          {
+            "title": "2026 中国企业 AI 应用场景报告：千份实践解码 AI 价值落地全路径",
+            "url": "https://www.163.com/dy/article/KPEHNGOA05566ZHB.html",
+            "snippet": "《2026 年中国企业 AI 应用场景报告》以千份实践案例为基石，以技术趋势为指引，以成功范式为核心，为身处数字化转型浪潮中的企业，拨开 AI 落地的迷雾，提供了可对标、可复制、可落地的全景解决方案。"
+          }
+        ],
+        "related_todo_ids": []
+      }
+    ],
+    "edges": [
+      {
+        "from_id": "keyword_4",
+        "to_id": "keyword_2",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_4",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_5",
+        "to_id": "keyword_2",
+        "relation": "enables"
+      },
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_5",
+        "relation": "depends_on"
+      },
+      {
+        "from_id": "keyword_3",
+        "to_id": "keyword_2",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_3",
+        "to_id": "keyword_6",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_1",
+        "to_id": "keyword_6",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_1",
+        "to_id": "keyword_3",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_6",
+        "relation": "enables"
+      },
+      {
+        "from_id": "keyword_4",
+        "to_id": "keyword_6",
+        "relation": "enables"
+      },
+      {
+        "from_id": "keyword_3",
+        "to_id": "keyword_1",
+        "relation": "precedes"
+      }
+    ],
+    "global_summary": "AI正从提示词工程向“编排智能”演进，智能体作为具备感知、记忆、决策、执行及工具调用能力的AI实体，正推动软件4.0发展。其核心架构由“用户-智能体-环境”闭环及内部多层级规划模块构成。当前深度研究基于全球185个案例与千份实践，聚焦AI价值落地与全景解决方案制定。\n\n**关键依赖**：高度依赖核心架构模块的完整集成与真实成功范式的对标复制。\n**潜在风险**：面临数字化转型迷雾与场景错配风险，需明确适宜AI的细分场景以规避。\n**结构化指引**：后续报告可按“趋势研判-架构设计-场景落地-实施路径”展开，指导企业实现技术价值最大化。",
+    "filtering_log": {
+      "removed_count": 14,
+      "removed_reasons": [
+        {
+          "title": "GitHub - datawhalechina/hello-agents: 《从零开始构建智能体 ...",
+          "reason": "重复（内容已包含在百度百科综合摘要中）"
+        },
+        {
+          "title": "国家三部门首次官方定义什么叫 “智能体” - 知乎",
+          "reason": "重复（内容已包含在百度百科综合摘要中）"
+        },
+        {
+          "title": "研究社",
+          "reason": "不相关（日本出版社，与AI智能体无关）"
+        },
+        {
+          "title": "研究 - 维基百科，自由的百科全书",
+          "reason": "不相关（通用词语解释，与AI无关）"
+        },
+        {
+          "title": "研究 - Wikipedia",
+          "reason": "不相关（通用词语解释，与AI无关）"
+        },
+        {
+          "title": "研究_百度百科",
+          "reason": "不相关（通用词语解释，与AI无关）"
+        },
+        {
+          "title": "研究 - Wiktionary, the free dictionary",
+          "reason": "不相关（通用词语解释，与AI无关）"
+        },
+        {
+          "title": "Agent - Wikipedia",
+          "reason": "不相关（通用Agent解释，与AI智能体无关）"
+        },
+        {
+          "title": "AGENT Definition & Meaning - Merriam-Webster",
+          "reason": "不相关（通用Agent解释，与AI智能体无关）"
+        },
+        {
+          "title": "AGENT | English meaning - Cambridge Dictionary",
+          "reason": "不相关（通用Agent解释，与AI智能体无关）"
+        },
+        {
+          "title": "Understanding Agents: Definitions, Types, and Real-World Examples...",
+          "reason": "不相关（法律术语Agent解释，与AI智能体无关）"
+        },
+        {
+          "title": "应用场景的定义 - cp.baidu.com",
+          "reason": "不相关（通用应用场景解释，与AI无关）"
+        },
+        {
+          "title": "应用场景是什么？怎样判断、描述一个产品的应用场景？ - 知乎",
+          "reason": "不相关（通用应用场景解释，与AI无关）"
+        },
+        {
+          "title": "应用场景何以驱动创新 _光明网",
+          "reason": "不相关（通用应用场景解释，与AI无关）"
+        }
+      ],
+      "merged_entries": [
+        {
+          "from_titles": [],
+          "to_title": "",
+          "reason": "原百度百科搜索结果摘要中已包含这两个来源的核心内容，存在信息重叠，合并以精简结果"
+        }
+      ],
+      "consistency_issues": []
+    }
+  }
+}

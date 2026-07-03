@@ -1,0 +1,765 @@
+{
+  "meta": {
+    "created_at": "2026-07-02T15:31:17.865178",
+    "query": "learn python",
+    "node_count": 4,
+    "edge_count": 6
+  },
+  "data": {
+    "nodes": [
+      {
+        "id": "keyword_1",
+        "keyword": "python",
+        "summary": "Python是一种免费开源的高级编程语言，提供丰富的标准库，支持Windows、macOS等主流平台。版本更新频繁，Python 2.0于2000年发布，目前最新版本已迭代至3.14.4（注意3.13及以上不支持Win7）。学习资源丰富，包括Python123（针对等级考试）、童程在线（少儿编程）、LearnPython.org（互动教程）及大量零基础视频教程。进阶内容涵盖多进程/多线程、Django实战等。建议初学者从互动教程或视频入门，结合GIF动图理解循环、递归等核心概念，进阶者可关注Django等框架实战。",
+        "sources": [
+          {
+            "title": "Python (programming language) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "snippet": "Python 2.0 was released on 16 October 2000, featuring many new features such as list comprehensions , cycle-detecting garbage collection, reference ..."
+          },
+          {
+            "title": "Download Python | Python.org",
+            "url": "https://www.python.org/downloads/",
+            "snippet": "As of Python 3.11.4 and 3.12.0b1 (2023-05-23), release installer packages are signed with certificates issued to the Python Software Foundation ..."
+          },
+          {
+            "title": "Python Releases for Windows | Python.org",
+            "url": "https://www.python.org/downloads/windows/",
+            "snippet": "Note that Python 3.13.14 cannot be used on Windows 7 or earlier. ... Download using the Python install manager ... Python install manager 26.0 - Feb."
+          },
+          {
+            "title": "Python Releases for macOS | Python.org",
+            "url": "https://www.python.org/downloads/macos/",
+            "snippet": "Latest Python 3 Release - Python 3.14.4 ... Python 3.13.13 - April 7, 2026 ... Python Software Foundation Legal Statements Privacy Notice"
+          },
+          {
+            "title": "What is Python? Executive Summary | Python.org",
+            "url": "https://www.python.org/doc/essays/blurb/",
+            "snippet": "The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be ..."
+          },
+          {
+            "title": "Learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Learning",
+            "snippet": "For example, in learning to play chess , the person must learn the rules (cognitive domain)—but must also learn how to set up the chess pieces and ..."
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "How To Learn New Things. A quick look at how adults can... | Medium",
+            "url": "https://medium.com/twist-today/how-to-learn-new-things-c754bcaa867e",
+            "snippet": "a. Visual learning style: you learn by looking at pictures, graphs, charts, etc. You probably like to scribble, take notes, or draw, even creating mental scenarios."
+          },
+          {
+            "title": "Learning to Learn",
+            "url": "https://www.udemy.com/course/learning-to-learn2/",
+            "snippet": "What you'll learnMaximise your learning potentialUnderstand how learning really works"
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Coding in Flow - Focused web dev tutorials",
+            "url": "https://www.codinginflow.com/",
+            "snippet": "Welcome to Coding in Flow! My name is Florian Walther and on my YouTube channel I make web dev tutorials that cut the fluff and get straight to the point."
+          },
+          {
+            "title": "Coding for Kids - Learn Python By Playing | Coding for Kids",
+            "url": "https://codingforkids.io/",
+            "snippet": "Coding for kids is a learning platform that uses a game to teach Python programming! Use the Code Editor below and add the line: player.move_forward() to make your way to the exit."
+          },
+          {
+            "title": "Vibe Coding - Immersive Developer Experience",
+            "url": "https://vibec.net/",
+            "snippet": "Immersive coding experience with interactive tutorials, live playground, and a vibrant community of developers."
+          },
+          {
+            "title": "Is Coding Fun or Boring? How to Know If Coding is for... | Career Karma",
+            "url": "https://careerkarma.com/blog/is-coding-fun-or-boring/",
+            "snippet": "Is coding hard to learn? While there’s no easy answer, this article may help you decide for yourself.How to Choose a Coding Bootcamp. Best Online Coding Bootcamps and Courses."
+          },
+          {
+            "title": "deconbatch's Land of 1000 Creative Codings. - Enjoy creative coding!",
+            "url": "https://www.deconbatch.com/",
+            "snippet": "Here's a quick 3-minute read on creative coding.Here's a quick 3-minute read on creative coding. We'll be looking at how to draw diagrams with a smooth color changes along an ar..."
+          },
+          {
+            "title": "Python Tutor - Python Online Compiler with Visual AI Help",
+            "url": "https://pythontutor.com/",
+            "snippet": "If you're teaching, you can use AI to generate customized code examples or programming assignments for your students."
+          },
+          {
+            "title": "Learn Python 2 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today. ... Python for experienced ..."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language."
+          },
+          {
+            "title": "CodeCombat - Coding games to learn Python and JavaScript",
+            "url": "https://codecombat.com/",
+            "snippet": "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and ..."
+          },
+          {
+            "title": "Learn Python the Hard Way",
+            "url": "https://learnpythonthehardway.org/",
+            "snippet": "Newly updated for Python 3, the original and still the most popular way for total beginners to finally learn how to code."
+          },
+          {
+            "title": "Python编程入门：10张 GIF 动图让你弄懂递归等概念今天的Python...",
+            "url": "https://juejin.cn/post/6844903901964009479",
+            "snippet": "今天的Python编程入门教程为大家整理了十张动图GIFS，有助于大家认识循环、递归、二分检索等概念的具体运行情况。 你一看就会了！ 一、循环."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/zh/",
+            "snippet": "欢迎来到 LearnPython.org 互动式 Python 教程。欢迎加入我们的Facebook小组进行问题咨询、讨论和更新。 完成教程后，您可以在LearnX获得认证，并将认证添加到您的 LinkedIn 个人资料中。"
+          },
+          {
+            "title": "耗时600小时整理《Python...",
+            "url": "https://open.163.com/newview/movie/free?pid=UHM3VD2ES&mid=GHM3VDN4N",
+            "snippet": "耗时600小时整理《Python教程全套》完全入门版，分享一起学习_高清附字幕 (Python编程开发)(字典的特点)."
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "登录 | Python123",
+            "url": "https://python123.io/index/login",
+            "snippet": "集 Python123 高等教师课题教学、日常考试、习题训练、计算生态以及计算机等级考试 Python 部分的指导模拟网站。"
+          },
+          {
+            "title": "在线少儿编程_Scratch_Python_Noip选美国上市品牌_童程在线官网",
+            "url": "https://61it.cn/",
+            "snippet": "童程童美凝聚美国纳斯达克上市公司20年编程教育经验，形成了以少儿编程,scratch,儿童编程,乐高机器人,智能机器人等学习体系为核心，集国内外大型权威赛事、国际国内游学、冬夏令营等为一体的中国青少年STEAM创客教育平台。"
+          },
+          {
+            "title": "Python进阶与实战 | 大江狗的博客",
+            "url": "https://pythondjango.cn/python/advanced-tutorials",
+            "snippet": "一文看懂Python多进程与多线程编程.Django实战：channels + websocket四步打造个在线聊天室(附图)."
+          },
+          {
+            "title": "TRAE - The Real AI Engineer | TRAE - The Real AI Engineer",
+            "url": "https://www.trae.cn/",
+            "snippet": "TRAE AI IDE | 国内首款 AI 原生集成开发环境，深度集成 Doubao-1.5-pro 与 DeepSeek 模型，支持中文自然语言一键生成完整代码框架，实时预览前端效果并智能修复 BUG。首创 Builder 模式实现需求到代码的自动化开发，兼容 Windows/macOS 系统，官网下载即用。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_2",
+        "keyword": "learn",
+        "summary": "学习涉及认知与实践，例如学国际象棋需懂规则并会摆棋。学习风格多样，视觉学习者偏好图表和涂鸦。当前存在多种AI辅助或免费学习平台（如Oboe提供个性化AI课程，LEARN101.ORG提供免费语言课）。提升学习能力的核心在于“学会如何学习”，以最大化潜能。建议学习者先了解自身学习风格（如视觉型），选择直击痛点的免费或AI定制课程，并注重理论与实践结合，通过“学习如何学习”来优化底层逻辑，提升吸收效率。",
+        "sources": [
+          {
+            "title": "Python (programming language) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "snippet": "Python 2.0 was released on 16 October 2000, featuring many new features such as list comprehensions , cycle-detecting garbage collection, reference ..."
+          },
+          {
+            "title": "Download Python | Python.org",
+            "url": "https://www.python.org/downloads/",
+            "snippet": "As of Python 3.11.4 and 3.12.0b1 (2023-05-23), release installer packages are signed with certificates issued to the Python Software Foundation ..."
+          },
+          {
+            "title": "Python Releases for Windows | Python.org",
+            "url": "https://www.python.org/downloads/windows/",
+            "snippet": "Note that Python 3.13.14 cannot be used on Windows 7 or earlier. ... Download using the Python install manager ... Python install manager 26.0 - Feb."
+          },
+          {
+            "title": "Python Releases for macOS | Python.org",
+            "url": "https://www.python.org/downloads/macos/",
+            "snippet": "Latest Python 3 Release - Python 3.14.4 ... Python 3.13.13 - April 7, 2026 ... Python Software Foundation Legal Statements Privacy Notice"
+          },
+          {
+            "title": "What is Python? Executive Summary | Python.org",
+            "url": "https://www.python.org/doc/essays/blurb/",
+            "snippet": "The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be ..."
+          },
+          {
+            "title": "Learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Learning",
+            "snippet": "For example, in learning to play chess , the person must learn the rules (cognitive domain)—but must also learn how to set up the chess pieces and ..."
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "How To Learn New Things. A quick look at how adults can... | Medium",
+            "url": "https://medium.com/twist-today/how-to-learn-new-things-c754bcaa867e",
+            "snippet": "a. Visual learning style: you learn by looking at pictures, graphs, charts, etc. You probably like to scribble, take notes, or draw, even creating mental scenarios."
+          },
+          {
+            "title": "Learning to Learn",
+            "url": "https://www.udemy.com/course/learning-to-learn2/",
+            "snippet": "What you'll learnMaximise your learning potentialUnderstand how learning really works"
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Coding in Flow - Focused web dev tutorials",
+            "url": "https://www.codinginflow.com/",
+            "snippet": "Welcome to Coding in Flow! My name is Florian Walther and on my YouTube channel I make web dev tutorials that cut the fluff and get straight to the point."
+          },
+          {
+            "title": "Coding for Kids - Learn Python By Playing | Coding for Kids",
+            "url": "https://codingforkids.io/",
+            "snippet": "Coding for kids is a learning platform that uses a game to teach Python programming! Use the Code Editor below and add the line: player.move_forward() to make your way to the exit."
+          },
+          {
+            "title": "Vibe Coding - Immersive Developer Experience",
+            "url": "https://vibec.net/",
+            "snippet": "Immersive coding experience with interactive tutorials, live playground, and a vibrant community of developers."
+          },
+          {
+            "title": "Is Coding Fun or Boring? How to Know If Coding is for... | Career Karma",
+            "url": "https://careerkarma.com/blog/is-coding-fun-or-boring/",
+            "snippet": "Is coding hard to learn? While there’s no easy answer, this article may help you decide for yourself.How to Choose a Coding Bootcamp. Best Online Coding Bootcamps and Courses."
+          },
+          {
+            "title": "deconbatch's Land of 1000 Creative Codings. - Enjoy creative coding!",
+            "url": "https://www.deconbatch.com/",
+            "snippet": "Here's a quick 3-minute read on creative coding.Here's a quick 3-minute read on creative coding. We'll be looking at how to draw diagrams with a smooth color changes along an ar..."
+          },
+          {
+            "title": "Python Tutor - Python Online Compiler with Visual AI Help",
+            "url": "https://pythontutor.com/",
+            "snippet": "If you're teaching, you can use AI to generate customized code examples or programming assignments for your students."
+          },
+          {
+            "title": "Learn Python 2 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today. ... Python for experienced ..."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language."
+          },
+          {
+            "title": "CodeCombat - Coding games to learn Python and JavaScript",
+            "url": "https://codecombat.com/",
+            "snippet": "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and ..."
+          },
+          {
+            "title": "Learn Python the Hard Way",
+            "url": "https://learnpythonthehardway.org/",
+            "snippet": "Newly updated for Python 3, the original and still the most popular way for total beginners to finally learn how to code."
+          },
+          {
+            "title": "Python编程入门：10张 GIF 动图让你弄懂递归等概念今天的Python...",
+            "url": "https://juejin.cn/post/6844903901964009479",
+            "snippet": "今天的Python编程入门教程为大家整理了十张动图GIFS，有助于大家认识循环、递归、二分检索等概念的具体运行情况。 你一看就会了！ 一、循环."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/zh/",
+            "snippet": "欢迎来到 LearnPython.org 互动式 Python 教程。欢迎加入我们的Facebook小组进行问题咨询、讨论和更新。 完成教程后，您可以在LearnX获得认证，并将认证添加到您的 LinkedIn 个人资料中。"
+          },
+          {
+            "title": "耗时600小时整理《Python...",
+            "url": "https://open.163.com/newview/movie/free?pid=UHM3VD2ES&mid=GHM3VDN4N",
+            "snippet": "耗时600小时整理《Python教程全套》完全入门版，分享一起学习_高清附字幕 (Python编程开发)(字典的特点)."
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "登录 | Python123",
+            "url": "https://python123.io/index/login",
+            "snippet": "集 Python123 高等教师课题教学、日常考试、习题训练、计算生态以及计算机等级考试 Python 部分的指导模拟网站。"
+          },
+          {
+            "title": "在线少儿编程_Scratch_Python_Noip选美国上市品牌_童程在线官网",
+            "url": "https://61it.cn/",
+            "snippet": "童程童美凝聚美国纳斯达克上市公司20年编程教育经验，形成了以少儿编程,scratch,儿童编程,乐高机器人,智能机器人等学习体系为核心，集国内外大型权威赛事、国际国内游学、冬夏令营等为一体的中国青少年STEAM创客教育平台。"
+          },
+          {
+            "title": "Python进阶与实战 | 大江狗的博客",
+            "url": "https://pythondjango.cn/python/advanced-tutorials",
+            "snippet": "一文看懂Python多进程与多线程编程.Django实战：channels + websocket四步打造个在线聊天室(附图)."
+          },
+          {
+            "title": "TRAE - The Real AI Engineer | TRAE - The Real AI Engineer",
+            "url": "https://www.trae.cn/",
+            "snippet": "TRAE AI IDE | 国内首款 AI 原生集成开发环境，深度集成 Doubao-1.5-pro 与 DeepSeek 模型，支持中文自然语言一键生成完整代码框架，实时预览前端效果并智能修复 BUG。首创 Builder 模式实现需求到代码的自动化开发，兼容 Windows/macOS 系统，官网下载即用。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_3",
+        "keyword": "programming",
+        "summary": "编程语言是包含关键字、符号和规则的人机交流工具，旨在以人类可读的方式编写软件。它支持多种范式，如极限编程（强调团队协作与高质量）和函数式编程。注意区分神经语言程序学（伪科学）。建议开发者根据项目需求选择合适的编程范式，在“命令式”为主的现代语言中尝试融合函数式编程思想。团队可引入极限编程准则以提升软件开发质量与协作效率。",
+        "sources": [
+          {
+            "title": "Python (programming language) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "snippet": "Python 2.0 was released on 16 October 2000, featuring many new features such as list comprehensions , cycle-detecting garbage collection, reference ..."
+          },
+          {
+            "title": "Download Python | Python.org",
+            "url": "https://www.python.org/downloads/",
+            "snippet": "As of Python 3.11.4 and 3.12.0b1 (2023-05-23), release installer packages are signed with certificates issued to the Python Software Foundation ..."
+          },
+          {
+            "title": "Python Releases for Windows | Python.org",
+            "url": "https://www.python.org/downloads/windows/",
+            "snippet": "Note that Python 3.13.14 cannot be used on Windows 7 or earlier. ... Download using the Python install manager ... Python install manager 26.0 - Feb."
+          },
+          {
+            "title": "Python Releases for macOS | Python.org",
+            "url": "https://www.python.org/downloads/macos/",
+            "snippet": "Latest Python 3 Release - Python 3.14.4 ... Python 3.13.13 - April 7, 2026 ... Python Software Foundation Legal Statements Privacy Notice"
+          },
+          {
+            "title": "What is Python? Executive Summary | Python.org",
+            "url": "https://www.python.org/doc/essays/blurb/",
+            "snippet": "The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be ..."
+          },
+          {
+            "title": "Learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Learning",
+            "snippet": "For example, in learning to play chess , the person must learn the rules (cognitive domain)—but must also learn how to set up the chess pieces and ..."
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "How To Learn New Things. A quick look at how adults can... | Medium",
+            "url": "https://medium.com/twist-today/how-to-learn-new-things-c754bcaa867e",
+            "snippet": "a. Visual learning style: you learn by looking at pictures, graphs, charts, etc. You probably like to scribble, take notes, or draw, even creating mental scenarios."
+          },
+          {
+            "title": "Learning to Learn",
+            "url": "https://www.udemy.com/course/learning-to-learn2/",
+            "snippet": "What you'll learnMaximise your learning potentialUnderstand how learning really works"
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Coding in Flow - Focused web dev tutorials",
+            "url": "https://www.codinginflow.com/",
+            "snippet": "Welcome to Coding in Flow! My name is Florian Walther and on my YouTube channel I make web dev tutorials that cut the fluff and get straight to the point."
+          },
+          {
+            "title": "Coding for Kids - Learn Python By Playing | Coding for Kids",
+            "url": "https://codingforkids.io/",
+            "snippet": "Coding for kids is a learning platform that uses a game to teach Python programming! Use the Code Editor below and add the line: player.move_forward() to make your way to the exit."
+          },
+          {
+            "title": "Vibe Coding - Immersive Developer Experience",
+            "url": "https://vibec.net/",
+            "snippet": "Immersive coding experience with interactive tutorials, live playground, and a vibrant community of developers."
+          },
+          {
+            "title": "Is Coding Fun or Boring? How to Know If Coding is for... | Career Karma",
+            "url": "https://careerkarma.com/blog/is-coding-fun-or-boring/",
+            "snippet": "Is coding hard to learn? While there’s no easy answer, this article may help you decide for yourself.How to Choose a Coding Bootcamp. Best Online Coding Bootcamps and Courses."
+          },
+          {
+            "title": "deconbatch's Land of 1000 Creative Codings. - Enjoy creative coding!",
+            "url": "https://www.deconbatch.com/",
+            "snippet": "Here's a quick 3-minute read on creative coding.Here's a quick 3-minute read on creative coding. We'll be looking at how to draw diagrams with a smooth color changes along an ar..."
+          },
+          {
+            "title": "Python Tutor - Python Online Compiler with Visual AI Help",
+            "url": "https://pythontutor.com/",
+            "snippet": "If you're teaching, you can use AI to generate customized code examples or programming assignments for your students."
+          },
+          {
+            "title": "Learn Python 2 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today. ... Python for experienced ..."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language."
+          },
+          {
+            "title": "CodeCombat - Coding games to learn Python and JavaScript",
+            "url": "https://codecombat.com/",
+            "snippet": "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and ..."
+          },
+          {
+            "title": "Learn Python the Hard Way",
+            "url": "https://learnpythonthehardway.org/",
+            "snippet": "Newly updated for Python 3, the original and still the most popular way for total beginners to finally learn how to code."
+          },
+          {
+            "title": "Python编程入门：10张 GIF 动图让你弄懂递归等概念今天的Python...",
+            "url": "https://juejin.cn/post/6844903901964009479",
+            "snippet": "今天的Python编程入门教程为大家整理了十张动图GIFS，有助于大家认识循环、递归、二分检索等概念的具体运行情况。 你一看就会了！ 一、循环."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/zh/",
+            "snippet": "欢迎来到 LearnPython.org 互动式 Python 教程。欢迎加入我们的Facebook小组进行问题咨询、讨论和更新。 完成教程后，您可以在LearnX获得认证，并将认证添加到您的 LinkedIn 个人资料中。"
+          },
+          {
+            "title": "耗时600小时整理《Python...",
+            "url": "https://open.163.com/newview/movie/free?pid=UHM3VD2ES&mid=GHM3VDN4N",
+            "snippet": "耗时600小时整理《Python教程全套》完全入门版，分享一起学习_高清附字幕 (Python编程开发)(字典的特点)."
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "登录 | Python123",
+            "url": "https://python123.io/index/login",
+            "snippet": "集 Python123 高等教师课题教学、日常考试、习题训练、计算生态以及计算机等级考试 Python 部分的指导模拟网站。"
+          },
+          {
+            "title": "在线少儿编程_Scratch_Python_Noip选美国上市品牌_童程在线官网",
+            "url": "https://61it.cn/",
+            "snippet": "童程童美凝聚美国纳斯达克上市公司20年编程教育经验，形成了以少儿编程,scratch,儿童编程,乐高机器人,智能机器人等学习体系为核心，集国内外大型权威赛事、国际国内游学、冬夏令营等为一体的中国青少年STEAM创客教育平台。"
+          },
+          {
+            "title": "Python进阶与实战 | 大江狗的博客",
+            "url": "https://pythondjango.cn/python/advanced-tutorials",
+            "snippet": "一文看懂Python多进程与多线程编程.Django实战：channels + websocket四步打造个在线聊天室(附图)."
+          },
+          {
+            "title": "TRAE - The Real AI Engineer | TRAE - The Real AI Engineer",
+            "url": "https://www.trae.cn/",
+            "snippet": "TRAE AI IDE | 国内首款 AI 原生集成开发环境，深度集成 Doubao-1.5-pro 与 DeepSeek 模型，支持中文自然语言一键生成完整代码框架，实时预览前端效果并智能修复 BUG。首创 Builder 模式实现需求到代码的自动化开发，兼容 Windows/macOS 系统，官网下载即用。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_4",
+        "keyword": "coding",
+        "summary": "编码是编程的实践过程，涵盖Web开发、创意编程和游戏化学习。当前趋势包括AI辅助编程（如国内首款AI原生IDE TRAE，支持中文自然语言生成代码和智能除错）和游戏化教学（如CodeCombat通过游戏学Python）。学习资源丰富，如Coding in Flow提供精简Web教程，Learn Python the Hard Way适合零基础。建议初学者通过游戏化平台或精简视频入门，利用AI IDE提升开发效率，进阶者可探索创意编程以提升算法与可视化能力。",
+        "sources": [
+          {
+            "title": "Python (programming language) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "snippet": "Python 2.0 was released on 16 October 2000, featuring many new features such as list comprehensions , cycle-detecting garbage collection, reference ..."
+          },
+          {
+            "title": "Download Python | Python.org",
+            "url": "https://www.python.org/downloads/",
+            "snippet": "As of Python 3.11.4 and 3.12.0b1 (2023-05-23), release installer packages are signed with certificates issued to the Python Software Foundation ..."
+          },
+          {
+            "title": "Python Releases for Windows | Python.org",
+            "url": "https://www.python.org/downloads/windows/",
+            "snippet": "Note that Python 3.13.14 cannot be used on Windows 7 or earlier. ... Download using the Python install manager ... Python install manager 26.0 - Feb."
+          },
+          {
+            "title": "Python Releases for macOS | Python.org",
+            "url": "https://www.python.org/downloads/macos/",
+            "snippet": "Latest Python 3 Release - Python 3.14.4 ... Python 3.13.13 - April 7, 2026 ... Python Software Foundation Legal Statements Privacy Notice"
+          },
+          {
+            "title": "What is Python? Executive Summary | Python.org",
+            "url": "https://www.python.org/doc/essays/blurb/",
+            "snippet": "The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be ..."
+          },
+          {
+            "title": "Learning - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Learning",
+            "snippet": "For example, in learning to play chess , the person must learn the rules (cognitive domain)—but must also learn how to set up the chess pieces and ..."
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "How To Learn New Things. A quick look at how adults can... | Medium",
+            "url": "https://medium.com/twist-today/how-to-learn-new-things-c754bcaa867e",
+            "snippet": "a. Visual learning style: you learn by looking at pictures, graphs, charts, etc. You probably like to scribble, take notes, or draw, even creating mental scenarios."
+          },
+          {
+            "title": "Learning to Learn",
+            "url": "https://www.udemy.com/course/learning-to-learn2/",
+            "snippet": "What you'll learnMaximise your learning potentialUnderstand how learning really works"
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Coding in Flow - Focused web dev tutorials",
+            "url": "https://www.codinginflow.com/",
+            "snippet": "Welcome to Coding in Flow! My name is Florian Walther and on my YouTube channel I make web dev tutorials that cut the fluff and get straight to the point."
+          },
+          {
+            "title": "Coding for Kids - Learn Python By Playing | Coding for Kids",
+            "url": "https://codingforkids.io/",
+            "snippet": "Coding for kids is a learning platform that uses a game to teach Python programming! Use the Code Editor below and add the line: player.move_forward() to make your way to the exit."
+          },
+          {
+            "title": "Vibe Coding - Immersive Developer Experience",
+            "url": "https://vibec.net/",
+            "snippet": "Immersive coding experience with interactive tutorials, live playground, and a vibrant community of developers."
+          },
+          {
+            "title": "Is Coding Fun or Boring? How to Know If Coding is for... | Career Karma",
+            "url": "https://careerkarma.com/blog/is-coding-fun-or-boring/",
+            "snippet": "Is coding hard to learn? While there’s no easy answer, this article may help you decide for yourself.How to Choose a Coding Bootcamp. Best Online Coding Bootcamps and Courses."
+          },
+          {
+            "title": "deconbatch's Land of 1000 Creative Codings. - Enjoy creative coding!",
+            "url": "https://www.deconbatch.com/",
+            "snippet": "Here's a quick 3-minute read on creative coding.Here's a quick 3-minute read on creative coding. We'll be looking at how to draw diagrams with a smooth color changes along an ar..."
+          },
+          {
+            "title": "Python Tutor - Python Online Compiler with Visual AI Help",
+            "url": "https://pythontutor.com/",
+            "snippet": "If you're teaching, you can use AI to generate customized code examples or programming assignments for your students."
+          },
+          {
+            "title": "Learn Python 2 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today. ... Python for experienced ..."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language."
+          },
+          {
+            "title": "CodeCombat - Coding games to learn Python and JavaScript",
+            "url": "https://codecombat.com/",
+            "snippet": "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and ..."
+          },
+          {
+            "title": "Learn Python the Hard Way",
+            "url": "https://learnpythonthehardway.org/",
+            "snippet": "Newly updated for Python 3, the original and still the most popular way for total beginners to finally learn how to code."
+          },
+          {
+            "title": "Python编程入门：10张 GIF 动图让你弄懂递归等概念今天的Python...",
+            "url": "https://juejin.cn/post/6844903901964009479",
+            "snippet": "今天的Python编程入门教程为大家整理了十张动图GIFS，有助于大家认识循环、递归、二分检索等概念的具体运行情况。 你一看就会了！ 一、循环."
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/zh/",
+            "snippet": "欢迎来到 LearnPython.org 互动式 Python 教程。欢迎加入我们的Facebook小组进行问题咨询、讨论和更新。 完成教程后，您可以在LearnX获得认证，并将认证添加到您的 LinkedIn 个人资料中。"
+          },
+          {
+            "title": "耗时600小时整理《Python...",
+            "url": "https://open.163.com/newview/movie/free?pid=UHM3VD2ES&mid=GHM3VDN4N",
+            "snippet": "耗时600小时整理《Python教程全套》完全入门版，分享一起学习_高清附字幕 (Python编程开发)(字典的特点)."
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "登录 | Python123",
+            "url": "https://python123.io/index/login",
+            "snippet": "集 Python123 高等教师课题教学、日常考试、习题训练、计算生态以及计算机等级考试 Python 部分的指导模拟网站。"
+          },
+          {
+            "title": "在线少儿编程_Scratch_Python_Noip选美国上市品牌_童程在线官网",
+            "url": "https://61it.cn/",
+            "snippet": "童程童美凝聚美国纳斯达克上市公司20年编程教育经验，形成了以少儿编程,scratch,儿童编程,乐高机器人,智能机器人等学习体系为核心，集国内外大型权威赛事、国际国内游学、冬夏令营等为一体的中国青少年STEAM创客教育平台。"
+          },
+          {
+            "title": "Python进阶与实战 | 大江狗的博客",
+            "url": "https://pythondjango.cn/python/advanced-tutorials",
+            "snippet": "一文看懂Python多进程与多线程编程.Django实战：channels + websocket四步打造个在线聊天室(附图)."
+          },
+          {
+            "title": "TRAE - The Real AI Engineer | TRAE - The Real AI Engineer",
+            "url": "https://www.trae.cn/",
+            "snippet": "TRAE AI IDE | 国内首款 AI 原生集成开发环境，深度集成 Doubao-1.5-pro 与 DeepSeek 模型，支持中文自然语言一键生成完整代码框架，实时预览前端效果并智能修复 BUG。首创 Builder 模式实现需求到代码的自动化开发，兼容 Windows/macOS 系统，官网下载即用。"
+          }
+        ],
+        "related_todo_ids": []
+      }
+    ],
+    "edges": [
+      {
+        "from_id": "keyword_1",
+        "to_id": "keyword_3",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_4",
+        "to_id": "keyword_3",
+        "relation": "depends_on"
+      },
+      {
+        "from_id": "keyword_1",
+        "to_id": "keyword_4",
+        "relation": "enables"
+      },
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_1",
+        "relation": "precedes"
+      },
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_4",
+        "relation": "precedes"
+      },
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_3",
+        "relation": "relates_to"
+      }
+    ],
+    "global_summary": "Python作为免费开源高级编程语言（最新3.14.4），是当前编程实践核心。学习需认知与实践结合，建议初学者明确自身风格（如视觉型），通过互动教程、游戏化平台或经典教材入门；进阶者探索Django实战、创意编程及函数式/极限编程范式。\n\n关键依赖：善用AI辅助工具（TRAE IDE、Python Tutor）与可视化动图提升开发与学习效率。\n风险提示：警惕伪科学（神经语言程序学）；注意版本兼容风险（3.13+不支持Win7）。\n\n报告结构建议：1.语言基础与版本；2.学习路径与风格适配；3.编程范式与进阶实战；4.工具赋能与风险规避。",
+    "filtering_log": {
+      "removed_count": 0,
+      "removed_reasons": [],
+      "merged_entries": [],
+      "consistency_issues": [
+        "CoT清洗结果解析失败，使用原始数据"
+      ]
+    }
+  }
+}

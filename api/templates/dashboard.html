@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}控制台 - 深度研究智能体{% endblock %}
+
+{% block content %}
+<div class="dashboard">
+  <!-- 左侧：提交新任务 -->
+  <section class="card submit-card">
+    <h2>📝 提交研究任务</h2>
+    <p class="card-desc">输入你要研究的问题，4个Agent将协作完成深度分析</p>
+    <form id="taskForm">
+      <div class="form-group">
+        <textarea name="query" rows="4" required
+          placeholder="例如：我要在下周五前完成数据库迁移和前端重构"></textarea>
+      </div>
+      <button type="submit" class="btn-primary" id="submitBtn">
+        开始研究
+      </button>
+    </form>
+  </section>
+
+  <!-- 右侧：当前任务进度 -->
+  <section class="card progress-card" id="progressCard" style="display:none;">
+    <h2>⚡ 实时进度</h2>
+    <div class="pipeline">
+      <div class="agent-node" data-agent="planner">
+        <div class="agent-icon">🧠</div>
+        <div class="agent-name">Planner</div>
+        <div class="agent-status">提取关键词</div>
+      </div>
+      <div class="agent-arrow">→</div>
+      <div class="agent-node" data-agent="search">
+        <div class="agent-icon">🔍</div>
+        <div class="agent-name">Search</div>
+        <div class="agent-status">多轮搜索</div>
+      </div>
+      <div class="agent-arrow">→</div>
+      <div class="agent-node" data-agent="summary">
+        <div class="agent-icon">📊</div>
+        <div class="agent-name">Summary</div>
+        <div class="agent-status">CoT清洗</div>
+      </div>
+      <div class="agent-arrow">→</div>
+      <div class="agent-node" data-agent="write">
+        <div class="agent-icon">📄</div>
+        <div class="agent-name">Write</div>
+        <div class="agent-status">生成报告</div>
+      </div>
+    </div>
+
+    <div class="progress-bar-container">
+      <div class="progress-bar" id="progressBar" style="width:0%"></div>
+    </div>
+    <div class="progress-info">
+      <span id="progressText">等待中...</span>
+      <span id="progressPercent">0%</span>
+    </div>
+
+    <div class="event-log" id="eventLog">
+      <div class="event-item">连接中...</div>
+    </div>
+
+    <div class="result-actions" id="resultActions" style="display:none;">
+      <button class="btn-primary" onclick="viewReport()">查看报告</button>
+      <button class="btn-ghost" onclick="downloadReport()">下载Markdown</button>
+    </div>
+  </section>
+
+  <!-- 下方：历史任务 -->
+  <section class="card history-card">
+    <h2>📚 历史任务</h2>
+    <div id="taskHistory">
+      <div class="empty-state">暂无历史任务</div>
+    </div>
+  </section>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="/static/js/dashboard.js"></script>
+{% endblock %}

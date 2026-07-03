@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}深度研究智能体{% endblock %}</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="logo">🔬</span>
+      <span>深度研究智能体</span>
+    </div>
+    <div class="nav-links" id="navLinks">
+      {% if current_user %}
+        <a href="/dashboard">控制台</a>
+        <span class="user-info">👤 {{ current_user.username }}</span>
+        <button class="btn-ghost" onclick="logout()">退出</button>
+      {% else %}
+        <a href="/login">登录</a>
+        <a href="/register">注册</a>
+      {% endif %}
+    </div>
+  </nav>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="/static/js/app.js"></script>
+  {% block extra_scripts %}{% endblock %}
+</body>
+</html>

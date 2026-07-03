@@ -1,0 +1,790 @@
+{
+  "meta": {
+    "created_at": "2026-07-03T00:43:15.542267",
+    "query": "learn python basics",
+    "node_count": 4,
+    "edge_count": 7
+  },
+  "data": {
+    "nodes": [
+      {
+        "id": "keyword_1",
+        "keyword": "Python",
+        "summary": "Python是易学、高效的面向对象编程语言，广泛应用于Web开发、游戏、自动化运维、数据科学及AI领域，PyPI为其官方包仓库。学习资源丰富，包含《Python编程：从入门到实践》、learnpython.org及大量零基础视频教程。建议：初学者可通过项目导向书籍或交互式网站入门，结合视频教程避坑；进阶时利用PyPI获取库，在实际项目中实践以提升技能。",
+        "sources": [
+          {
+            "title": "PyPI · The Python Package Index",
+            "url": "https://pypi.org/",
+            "snippet": "The Python Package Index (PyPI) is a repository of software for the Python programming language."
+          },
+          {
+            "title": "Python min() 函数",
+            "url": "https://www.w3school.com.cn/python/ref_func_min.asp",
+            "snippet": "提供结构清晰、通俗易懂的 Web 开发教程，内含海量实战示例，涵盖 HTML、CSS、JavaScript、SQL、Python、PHP、Bootstrap、Java、XML 等多种技术。"
+          },
+          {
+            "title": "Some Cool Things You Can Do With Python | by Intersog | Medium",
+            "url": "https://medium.com/@Intersog/some-cool-things-you-can-do-with-python-12a595164b49",
+            "snippet": "1. Python for Web Development. As Python is an Object Oriented (OO) language, so anyone starting out will find it easy to play along with OO concepts."
+          },
+          {
+            "title": "47 PYTHON ideas in 2026 | learn computer coding, computer coding...",
+            "url": "https://www.pinterest.com/bretmyevolv/python/",
+            "snippet": "Perfect for Python beginners, B.Tech students, coding learners, and anyone building strong programming fundamentals. Save this pin to quickly revise Python OOP anytime."
+          },
+          {
+            "title": "Level 2: Movement with Functions | Introduction to Python",
+            "url": "https://codingforkids.io/en/play/python/intro-level2",
+            "snippet": "Python is an all use programming language you can use for a variety of apps including games! Your first task is to make your way to the star using code to complete the level!"
+          },
+          {
+            "title": "250 Basics. ideas | recipes, food, food processor recipes",
+            "url": "https://www.pinterest.com/janetimmers/basics/",
+            "snippet": "Basics. The Best Way to Boil Eggs for Soft Yolks, Firm Yolks, or Any Yolk In-Between | Tea eggs, Vegetarian comfort food, Egg recipes."
+          },
+          {
+            "title": "FNF Vs. Baldi's Basics - Play Online on Snokido",
+            "url": "https://www.snokido.com/game/vs-baldis-basics",
+            "snippet": "FNF Vs. Baldi's Basics 1.5: Dismissal song has been replaced by the new song Expulsion, many sprites have been changed or improved. Songs list: Basics - Lesson - Expulsion - Piracy."
+          },
+          {
+            "title": "Balsi Basics Game! Playable for both PC And Mobile! Browser Game!",
+            "url": "https://vblf.blogspot.com/p/basic9.html",
+            "snippet": "Baldi's Basics By: Mystman12. Inspired by CiaranKellyYT. (LAST UPDATE: MAY 21st 2024)."
+          },
+          {
+            "title": "The Basics are Boring, but it’s the Boring That Makes You... | Medium",
+            "url": "https://medium.com/@enrique.aledius/the-basics-are-boring-but-its-the-boring-that-makes-you-great-8c7ab5c36304",
+            "snippet": "I’ve worked with goalies of different ages but most recently it’s been kids under 13 years old. One of the main things we focus in on is…the basics. How original."
+          },
+          {
+            "title": "Baldis Basics Original - Chrome Web Store",
+            "url": "https://chromewebstore.google.com/detail/baldis-basics-original/mldefikfkmhajhdhgljiahianjjkpjih",
+            "snippet": "Play Baldis Basics Original as a Chrome extension - Also can Play without Internet, try it now! Play other games on the top-left menu. Baldi's Basics Original - Unblocked & Free!"
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "italki - Best language learning app with certificated tutors",
+            "url": "https://www.italki.com/",
+            "snippet": "Start real learning, see clear progressTired of app learning? Speak with a native teacherA wide variety of tutors for all levels and learning stylesIf you'd prefer to learn without a teacher, you can use italki's handy learning tools."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "27 best learning resources for developers, designers and makers",
+            "url": "https://undesign.learn.uno/learning/",
+            "snippet": "Learning Lab. Learn anything in one month alongside your day job.Learn the fundamentals of UX & UI Design, including design laws and principles, visual design, and design processes."
+          },
+          {
+            "title": "How to learn better. For some time now, learning has been... | Medium",
+            "url": "https://pedroalvarad0.medium.com/how-to-learn-better-e5a9ea3deecd",
+            "snippet": "Learning should be seen as something fun. Learning should feel like playing. The idea has been formed that learning is something boring. Learn what you love until you love to learn."
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Python Tutorial",
+            "url": "https://www.w3schools.com/python/",
+            "snippet": "Learn the basics of HTML in a fun and engaging video tutorial.Python is a popular programming language. Python can be used on a server to create web applications. Python is easy to learn - You will enjoy it!"
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "learnpython.org is a free interactive Python tutorial for people who want to learn Python, fast."
+          },
+          {
+            "title": "The Python Tutorial — Python 3.14.6 documentation",
+            "url": "https://docs.python.org/3/tutorial/index.html",
+            "snippet": "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming."
+          },
+          {
+            "title": "Learn Python 3 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python-3",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today.Write Python 3 programs. Simplify the code you write. Take your skills off-platform."
+          },
+          {
+            "title": "Python Full Course for Beginners - YouTube",
+            "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+            "snippet": "Master Python from scratch No fluff—just clear, practical coding skills to kickstart your journey! Want to dive deeper?-"
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. 鱼C-小甲鱼. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "Python编程零基础入门：视频教程助你轻松掌握基础技能 - 云原生实践",
+            "url": "https://www.oryoy.com/news/python-bian-cheng-ling-ji-chu-ru-men-shi-pin-jiao-cheng-zhu-ni-qing-song-zhang-wo-ji-chu-ji-neng.html",
+            "snippet": "对于零基础的学习者来说，通过视频教程学习Python是一种高效且直观的方式。"
+          },
+          {
+            "title": "Python 零基础入门系列专栏：10... | 小白 编程 笔记",
+            "url": "https://leipynote.com/python-ling-ji-chu-ru-men-xi-lie-zhuan-lan/",
+            "snippet": "Python 3.11 Windows 超详细安装教程（一步一图 + 零基础避坑，一次成功）.Q1：没有任何编程基础，能学会Python零基础入门系列专栏吗？ A：完全可以！"
+          },
+          {
+            "title": "零编程基础自学python经验分享(保姆级Python... | 穆世明博客",
+            "url": "https://www.mushiming.com/mjyfx/156.html",
+            "snippet": "《Python编程：从入门到实践》（Eric Matthes著） - 一本非常适合初学者的书籍，通过项目导向的方式学习Python。"
+          },
+          {
+            "title": "Full text of \"IT计算机精选合集\"",
+            "url": "https://archive.org/stream/ittushu-1500/PDF/python自动化运维技术与最佳实践_djvu.txt",
+            "snippet": "Python 目 动 化 运 维. 技术 与 最 佳 实践.Automation Operations with Python Technique and Best Practices."
+          },
+          {
+            "title": "campus.ararlluf.com/category/mrds",
+            "url": "https://campus.ararlluf.com/category/mrds/",
+            "snippet": "每日大赛聚合当下热门内容，黑料每日更新，真实爆料第一时间呈现；网红翻车、明星八卦、校园风波与直播圈动态集中放送，实时吃瓜不漏瓜。畅享精彩内容，精选热门话题，快读快看，快速掌握今日大瓜与最新黑料；更多新鲜内容持续补充，热点变化随时跟进。"
+          },
+          {
+            "title": "Read the latest magazines about python数据科学 and discover...",
+            "url": "https://www.yumpu.com/xx/document/view/65682574/python",
+            "snippet": "Jupyter Notebook 支 持 许 多 编 程 语 言 (Python、R、Scala、Julia、Haskell、Ruby……), 甚 至 支 持."
+          },
+          {
+            "title": "Kimi AI with K2.6 | Better Coding, Smarter Agents",
+            "url": "https://www.kimi.com/",
+            "snippet": "Try Kimi K2.6 to build stunning, full-stack websites, use Agent Swarm for massive tasks, turn documents into reusable skills, and explore Claw Groups preview for agent teamwork."
+          },
+          {
+            "title": "AI学习入门指南：从零开始的人工智能之旅 — CyberPanda",
+            "url": "https://www.cyberpanda.me/get-started-website-with-astro-tailwind-css",
+            "snippet": "Python：AI领域的首选语言，拥有丰富的机器学习库. R语言：在数据分析和统计建模方面表现出色. SQL：数据处理的必备技能.AI学习是一个持续的过程，关键是要开始行动。 记住，最好的学习方法就是在实践中学习，在使用中理解。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_2",
+        "keyword": "basics",
+        "summary": "结果涵盖编程基础（Python OOP、HTML、UX/UI设计）、生活基础及游戏《Baldi's Basics》。核心观点强调“基础虽枯燥但至关重要”，是进阶的基石。建议：学习新技能时务必重视并巩固底层概念；可通过游戏化或生活实例辅助理解枯燥的基础；保持耐心，扎实打好基础以应对后续复杂挑战。",
+        "sources": [
+          {
+            "title": "PyPI · The Python Package Index",
+            "url": "https://pypi.org/",
+            "snippet": "The Python Package Index (PyPI) is a repository of software for the Python programming language."
+          },
+          {
+            "title": "Python min() 函数",
+            "url": "https://www.w3school.com.cn/python/ref_func_min.asp",
+            "snippet": "提供结构清晰、通俗易懂的 Web 开发教程，内含海量实战示例，涵盖 HTML、CSS、JavaScript、SQL、Python、PHP、Bootstrap、Java、XML 等多种技术。"
+          },
+          {
+            "title": "Some Cool Things You Can Do With Python | by Intersog | Medium",
+            "url": "https://medium.com/@Intersog/some-cool-things-you-can-do-with-python-12a595164b49",
+            "snippet": "1. Python for Web Development. As Python is an Object Oriented (OO) language, so anyone starting out will find it easy to play along with OO concepts."
+          },
+          {
+            "title": "47 PYTHON ideas in 2026 | learn computer coding, computer coding...",
+            "url": "https://www.pinterest.com/bretmyevolv/python/",
+            "snippet": "Perfect for Python beginners, B.Tech students, coding learners, and anyone building strong programming fundamentals. Save this pin to quickly revise Python OOP anytime."
+          },
+          {
+            "title": "Level 2: Movement with Functions | Introduction to Python",
+            "url": "https://codingforkids.io/en/play/python/intro-level2",
+            "snippet": "Python is an all use programming language you can use for a variety of apps including games! Your first task is to make your way to the star using code to complete the level!"
+          },
+          {
+            "title": "250 Basics. ideas | recipes, food, food processor recipes",
+            "url": "https://www.pinterest.com/janetimmers/basics/",
+            "snippet": "Basics. The Best Way to Boil Eggs for Soft Yolks, Firm Yolks, or Any Yolk In-Between | Tea eggs, Vegetarian comfort food, Egg recipes."
+          },
+          {
+            "title": "FNF Vs. Baldi's Basics - Play Online on Snokido",
+            "url": "https://www.snokido.com/game/vs-baldis-basics",
+            "snippet": "FNF Vs. Baldi's Basics 1.5: Dismissal song has been replaced by the new song Expulsion, many sprites have been changed or improved. Songs list: Basics - Lesson - Expulsion - Piracy."
+          },
+          {
+            "title": "Balsi Basics Game! Playable for both PC And Mobile! Browser Game!",
+            "url": "https://vblf.blogspot.com/p/basic9.html",
+            "snippet": "Baldi's Basics By: Mystman12. Inspired by CiaranKellyYT. (LAST UPDATE: MAY 21st 2024)."
+          },
+          {
+            "title": "The Basics are Boring, but it’s the Boring That Makes You... | Medium",
+            "url": "https://medium.com/@enrique.aledius/the-basics-are-boring-but-its-the-boring-that-makes-you-great-8c7ab5c36304",
+            "snippet": "I’ve worked with goalies of different ages but most recently it’s been kids under 13 years old. One of the main things we focus in on is…the basics. How original."
+          },
+          {
+            "title": "Baldis Basics Original - Chrome Web Store",
+            "url": "https://chromewebstore.google.com/detail/baldis-basics-original/mldefikfkmhajhdhgljiahianjjkpjih",
+            "snippet": "Play Baldis Basics Original as a Chrome extension - Also can Play without Internet, try it now! Play other games on the top-left menu. Baldi's Basics Original - Unblocked & Free!"
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "italki - Best language learning app with certificated tutors",
+            "url": "https://www.italki.com/",
+            "snippet": "Start real learning, see clear progressTired of app learning? Speak with a native teacherA wide variety of tutors for all levels and learning stylesIf you'd prefer to learn without a teacher, you can use italki's handy learning tools."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "27 best learning resources for developers, designers and makers",
+            "url": "https://undesign.learn.uno/learning/",
+            "snippet": "Learning Lab. Learn anything in one month alongside your day job.Learn the fundamentals of UX & UI Design, including design laws and principles, visual design, and design processes."
+          },
+          {
+            "title": "How to learn better. For some time now, learning has been... | Medium",
+            "url": "https://pedroalvarad0.medium.com/how-to-learn-better-e5a9ea3deecd",
+            "snippet": "Learning should be seen as something fun. Learning should feel like playing. The idea has been formed that learning is something boring. Learn what you love until you love to learn."
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Python Tutorial",
+            "url": "https://www.w3schools.com/python/",
+            "snippet": "Learn the basics of HTML in a fun and engaging video tutorial.Python is a popular programming language. Python can be used on a server to create web applications. Python is easy to learn - You will enjoy it!"
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "learnpython.org is a free interactive Python tutorial for people who want to learn Python, fast."
+          },
+          {
+            "title": "The Python Tutorial — Python 3.14.6 documentation",
+            "url": "https://docs.python.org/3/tutorial/index.html",
+            "snippet": "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming."
+          },
+          {
+            "title": "Learn Python 3 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python-3",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today.Write Python 3 programs. Simplify the code you write. Take your skills off-platform."
+          },
+          {
+            "title": "Python Full Course for Beginners - YouTube",
+            "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+            "snippet": "Master Python from scratch No fluff—just clear, practical coding skills to kickstart your journey! Want to dive deeper?-"
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. 鱼C-小甲鱼. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "Python编程零基础入门：视频教程助你轻松掌握基础技能 - 云原生实践",
+            "url": "https://www.oryoy.com/news/python-bian-cheng-ling-ji-chu-ru-men-shi-pin-jiao-cheng-zhu-ni-qing-song-zhang-wo-ji-chu-ji-neng.html",
+            "snippet": "对于零基础的学习者来说，通过视频教程学习Python是一种高效且直观的方式。"
+          },
+          {
+            "title": "Python 零基础入门系列专栏：10... | 小白 编程 笔记",
+            "url": "https://leipynote.com/python-ling-ji-chu-ru-men-xi-lie-zhuan-lan/",
+            "snippet": "Python 3.11 Windows 超详细安装教程（一步一图 + 零基础避坑，一次成功）.Q1：没有任何编程基础，能学会Python零基础入门系列专栏吗？ A：完全可以！"
+          },
+          {
+            "title": "零编程基础自学python经验分享(保姆级Python... | 穆世明博客",
+            "url": "https://www.mushiming.com/mjyfx/156.html",
+            "snippet": "《Python编程：从入门到实践》（Eric Matthes著） - 一本非常适合初学者的书籍，通过项目导向的方式学习Python。"
+          },
+          {
+            "title": "Full text of \"IT计算机精选合集\"",
+            "url": "https://archive.org/stream/ittushu-1500/PDF/python自动化运维技术与最佳实践_djvu.txt",
+            "snippet": "Python 目 动 化 运 维. 技术 与 最 佳 实践.Automation Operations with Python Technique and Best Practices."
+          },
+          {
+            "title": "campus.ararlluf.com/category/mrds",
+            "url": "https://campus.ararlluf.com/category/mrds/",
+            "snippet": "每日大赛聚合当下热门内容，黑料每日更新，真实爆料第一时间呈现；网红翻车、明星八卦、校园风波与直播圈动态集中放送，实时吃瓜不漏瓜。畅享精彩内容，精选热门话题，快读快看，快速掌握今日大瓜与最新黑料；更多新鲜内容持续补充，热点变化随时跟进。"
+          },
+          {
+            "title": "Read the latest magazines about python数据科学 and discover...",
+            "url": "https://www.yumpu.com/xx/document/view/65682574/python",
+            "snippet": "Jupyter Notebook 支 持 许 多 编 程 语 言 (Python、R、Scala、Julia、Haskell、Ruby……), 甚 至 支 持."
+          },
+          {
+            "title": "Kimi AI with K2.6 | Better Coding, Smarter Agents",
+            "url": "https://www.kimi.com/",
+            "snippet": "Try Kimi K2.6 to build stunning, full-stack websites, use Agent Swarm for massive tasks, turn documents into reusable skills, and explore Claw Groups preview for agent teamwork."
+          },
+          {
+            "title": "AI学习入门指南：从零开始的人工智能之旅 — CyberPanda",
+            "url": "https://www.cyberpanda.me/get-started-website-with-astro-tailwind-css",
+            "snippet": "Python：AI领域的首选语言，拥有丰富的机器学习库. R语言：在数据分析和统计建模方面表现出色. SQL：数据处理的必备技能.AI学习是一个持续的过程，关键是要开始行动。 记住，最好的学习方法就是在实践中学习，在使用中理解。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_3",
+        "keyword": "learn",
+        "summary": "学习应被视为有趣的过程，最佳方式是“在实践中学习，在使用中理解”。资源涵盖italki（真人外教）、LEARN101.ORG（免费课程）、Oboe（AI定制）及Learning Lab。建议：选择适合自身风格的学习平台；将学习与兴趣结合，采用项目导向法；善用AI工具提升效率；保持持续行动，将学习融入日常习惯。",
+        "sources": [
+          {
+            "title": "PyPI · The Python Package Index",
+            "url": "https://pypi.org/",
+            "snippet": "The Python Package Index (PyPI) is a repository of software for the Python programming language."
+          },
+          {
+            "title": "Python min() 函数",
+            "url": "https://www.w3school.com.cn/python/ref_func_min.asp",
+            "snippet": "提供结构清晰、通俗易懂的 Web 开发教程，内含海量实战示例，涵盖 HTML、CSS、JavaScript、SQL、Python、PHP、Bootstrap、Java、XML 等多种技术。"
+          },
+          {
+            "title": "Some Cool Things You Can Do With Python | by Intersog | Medium",
+            "url": "https://medium.com/@Intersog/some-cool-things-you-can-do-with-python-12a595164b49",
+            "snippet": "1. Python for Web Development. As Python is an Object Oriented (OO) language, so anyone starting out will find it easy to play along with OO concepts."
+          },
+          {
+            "title": "47 PYTHON ideas in 2026 | learn computer coding, computer coding...",
+            "url": "https://www.pinterest.com/bretmyevolv/python/",
+            "snippet": "Perfect for Python beginners, B.Tech students, coding learners, and anyone building strong programming fundamentals. Save this pin to quickly revise Python OOP anytime."
+          },
+          {
+            "title": "Level 2: Movement with Functions | Introduction to Python",
+            "url": "https://codingforkids.io/en/play/python/intro-level2",
+            "snippet": "Python is an all use programming language you can use for a variety of apps including games! Your first task is to make your way to the star using code to complete the level!"
+          },
+          {
+            "title": "250 Basics. ideas | recipes, food, food processor recipes",
+            "url": "https://www.pinterest.com/janetimmers/basics/",
+            "snippet": "Basics. The Best Way to Boil Eggs for Soft Yolks, Firm Yolks, or Any Yolk In-Between | Tea eggs, Vegetarian comfort food, Egg recipes."
+          },
+          {
+            "title": "FNF Vs. Baldi's Basics - Play Online on Snokido",
+            "url": "https://www.snokido.com/game/vs-baldis-basics",
+            "snippet": "FNF Vs. Baldi's Basics 1.5: Dismissal song has been replaced by the new song Expulsion, many sprites have been changed or improved. Songs list: Basics - Lesson - Expulsion - Piracy."
+          },
+          {
+            "title": "Balsi Basics Game! Playable for both PC And Mobile! Browser Game!",
+            "url": "https://vblf.blogspot.com/p/basic9.html",
+            "snippet": "Baldi's Basics By: Mystman12. Inspired by CiaranKellyYT. (LAST UPDATE: MAY 21st 2024)."
+          },
+          {
+            "title": "The Basics are Boring, but it’s the Boring That Makes You... | Medium",
+            "url": "https://medium.com/@enrique.aledius/the-basics-are-boring-but-its-the-boring-that-makes-you-great-8c7ab5c36304",
+            "snippet": "I’ve worked with goalies of different ages but most recently it’s been kids under 13 years old. One of the main things we focus in on is…the basics. How original."
+          },
+          {
+            "title": "Baldis Basics Original - Chrome Web Store",
+            "url": "https://chromewebstore.google.com/detail/baldis-basics-original/mldefikfkmhajhdhgljiahianjjkpjih",
+            "snippet": "Play Baldis Basics Original as a Chrome extension - Also can Play without Internet, try it now! Play other games on the top-left menu. Baldi's Basics Original - Unblocked & Free!"
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "italki - Best language learning app with certificated tutors",
+            "url": "https://www.italki.com/",
+            "snippet": "Start real learning, see clear progressTired of app learning? Speak with a native teacherA wide variety of tutors for all levels and learning stylesIf you'd prefer to learn without a teacher, you can use italki's handy learning tools."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "27 best learning resources for developers, designers and makers",
+            "url": "https://undesign.learn.uno/learning/",
+            "snippet": "Learning Lab. Learn anything in one month alongside your day job.Learn the fundamentals of UX & UI Design, including design laws and principles, visual design, and design processes."
+          },
+          {
+            "title": "How to learn better. For some time now, learning has been... | Medium",
+            "url": "https://pedroalvarad0.medium.com/how-to-learn-better-e5a9ea3deecd",
+            "snippet": "Learning should be seen as something fun. Learning should feel like playing. The idea has been formed that learning is something boring. Learn what you love until you love to learn."
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Python Tutorial",
+            "url": "https://www.w3schools.com/python/",
+            "snippet": "Learn the basics of HTML in a fun and engaging video tutorial.Python is a popular programming language. Python can be used on a server to create web applications. Python is easy to learn - You will enjoy it!"
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "learnpython.org is a free interactive Python tutorial for people who want to learn Python, fast."
+          },
+          {
+            "title": "The Python Tutorial — Python 3.14.6 documentation",
+            "url": "https://docs.python.org/3/tutorial/index.html",
+            "snippet": "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming."
+          },
+          {
+            "title": "Learn Python 3 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python-3",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today.Write Python 3 programs. Simplify the code you write. Take your skills off-platform."
+          },
+          {
+            "title": "Python Full Course for Beginners - YouTube",
+            "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+            "snippet": "Master Python from scratch No fluff—just clear, practical coding skills to kickstart your journey! Want to dive deeper?-"
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. 鱼C-小甲鱼. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "Python编程零基础入门：视频教程助你轻松掌握基础技能 - 云原生实践",
+            "url": "https://www.oryoy.com/news/python-bian-cheng-ling-ji-chu-ru-men-shi-pin-jiao-cheng-zhu-ni-qing-song-zhang-wo-ji-chu-ji-neng.html",
+            "snippet": "对于零基础的学习者来说，通过视频教程学习Python是一种高效且直观的方式。"
+          },
+          {
+            "title": "Python 零基础入门系列专栏：10... | 小白 编程 笔记",
+            "url": "https://leipynote.com/python-ling-ji-chu-ru-men-xi-lie-zhuan-lan/",
+            "snippet": "Python 3.11 Windows 超详细安装教程（一步一图 + 零基础避坑，一次成功）.Q1：没有任何编程基础，能学会Python零基础入门系列专栏吗？ A：完全可以！"
+          },
+          {
+            "title": "零编程基础自学python经验分享(保姆级Python... | 穆世明博客",
+            "url": "https://www.mushiming.com/mjyfx/156.html",
+            "snippet": "《Python编程：从入门到实践》（Eric Matthes著） - 一本非常适合初学者的书籍，通过项目导向的方式学习Python。"
+          },
+          {
+            "title": "Full text of \"IT计算机精选合集\"",
+            "url": "https://archive.org/stream/ittushu-1500/PDF/python自动化运维技术与最佳实践_djvu.txt",
+            "snippet": "Python 目 动 化 运 维. 技术 与 最 佳 实践.Automation Operations with Python Technique and Best Practices."
+          },
+          {
+            "title": "campus.ararlluf.com/category/mrds",
+            "url": "https://campus.ararlluf.com/category/mrds/",
+            "snippet": "每日大赛聚合当下热门内容，黑料每日更新，真实爆料第一时间呈现；网红翻车、明星八卦、校园风波与直播圈动态集中放送，实时吃瓜不漏瓜。畅享精彩内容，精选热门话题，快读快看，快速掌握今日大瓜与最新黑料；更多新鲜内容持续补充，热点变化随时跟进。"
+          },
+          {
+            "title": "Read the latest magazines about python数据科学 and discover...",
+            "url": "https://www.yumpu.com/xx/document/view/65682574/python",
+            "snippet": "Jupyter Notebook 支 持 许 多 编 程 语 言 (Python、R、Scala、Julia、Haskell、Ruby……), 甚 至 支 持."
+          },
+          {
+            "title": "Kimi AI with K2.6 | Better Coding, Smarter Agents",
+            "url": "https://www.kimi.com/",
+            "snippet": "Try Kimi K2.6 to build stunning, full-stack websites, use Agent Swarm for massive tasks, turn documents into reusable skills, and explore Claw Groups preview for agent teamwork."
+          },
+          {
+            "title": "AI学习入门指南：从零开始的人工智能之旅 — CyberPanda",
+            "url": "https://www.cyberpanda.me/get-started-website-with-astro-tailwind-css",
+            "snippet": "Python：AI领域的首选语言，拥有丰富的机器学习库. R语言：在数据分析和统计建模方面表现出色. SQL：数据处理的必备技能.AI学习是一个持续的过程，关键是要开始行动。 记住，最好的学习方法就是在实践中学习，在使用中理解。"
+          }
+        ],
+        "related_todo_ids": []
+      },
+      {
+        "id": "keyword_4",
+        "keyword": "programming",
+        "summary": "编程语言是包含关键字、符号和规则的工程语言，用于向计算机传达人类可读指令。涵盖多种范式，如面向对象、极限编程（注重高质量软件开发）、函数式与命令式编程。建议：初学者应先理解语言的基本构成与规则；根据项目需求选择合适的编程范式；团队开发可借鉴极限编程规范以提升代码质量与协作效率。",
+        "sources": [
+          {
+            "title": "PyPI · The Python Package Index",
+            "url": "https://pypi.org/",
+            "snippet": "The Python Package Index (PyPI) is a repository of software for the Python programming language."
+          },
+          {
+            "title": "Python min() 函数",
+            "url": "https://www.w3school.com.cn/python/ref_func_min.asp",
+            "snippet": "提供结构清晰、通俗易懂的 Web 开发教程，内含海量实战示例，涵盖 HTML、CSS、JavaScript、SQL、Python、PHP、Bootstrap、Java、XML 等多种技术。"
+          },
+          {
+            "title": "Some Cool Things You Can Do With Python | by Intersog | Medium",
+            "url": "https://medium.com/@Intersog/some-cool-things-you-can-do-with-python-12a595164b49",
+            "snippet": "1. Python for Web Development. As Python is an Object Oriented (OO) language, so anyone starting out will find it easy to play along with OO concepts."
+          },
+          {
+            "title": "47 PYTHON ideas in 2026 | learn computer coding, computer coding...",
+            "url": "https://www.pinterest.com/bretmyevolv/python/",
+            "snippet": "Perfect for Python beginners, B.Tech students, coding learners, and anyone building strong programming fundamentals. Save this pin to quickly revise Python OOP anytime."
+          },
+          {
+            "title": "Level 2: Movement with Functions | Introduction to Python",
+            "url": "https://codingforkids.io/en/play/python/intro-level2",
+            "snippet": "Python is an all use programming language you can use for a variety of apps including games! Your first task is to make your way to the star using code to complete the level!"
+          },
+          {
+            "title": "250 Basics. ideas | recipes, food, food processor recipes",
+            "url": "https://www.pinterest.com/janetimmers/basics/",
+            "snippet": "Basics. The Best Way to Boil Eggs for Soft Yolks, Firm Yolks, or Any Yolk In-Between | Tea eggs, Vegetarian comfort food, Egg recipes."
+          },
+          {
+            "title": "FNF Vs. Baldi's Basics - Play Online on Snokido",
+            "url": "https://www.snokido.com/game/vs-baldis-basics",
+            "snippet": "FNF Vs. Baldi's Basics 1.5: Dismissal song has been replaced by the new song Expulsion, many sprites have been changed or improved. Songs list: Basics - Lesson - Expulsion - Piracy."
+          },
+          {
+            "title": "Balsi Basics Game! Playable for both PC And Mobile! Browser Game!",
+            "url": "https://vblf.blogspot.com/p/basic9.html",
+            "snippet": "Baldi's Basics By: Mystman12. Inspired by CiaranKellyYT. (LAST UPDATE: MAY 21st 2024)."
+          },
+          {
+            "title": "The Basics are Boring, but it’s the Boring That Makes You... | Medium",
+            "url": "https://medium.com/@enrique.aledius/the-basics-are-boring-but-its-the-boring-that-makes-you-great-8c7ab5c36304",
+            "snippet": "I’ve worked with goalies of different ages but most recently it’s been kids under 13 years old. One of the main things we focus in on is…the basics. How original."
+          },
+          {
+            "title": "Baldis Basics Original - Chrome Web Store",
+            "url": "https://chromewebstore.google.com/detail/baldis-basics-original/mldefikfkmhajhdhgljiahianjjkpjih",
+            "snippet": "Play Baldis Basics Original as a Chrome extension - Also can Play without Internet, try it now! Play other games on the top-left menu. Baldi's Basics Original - Unblocked & Free!"
+          },
+          {
+            "title": "Oboe — The easiest way to learn. Magical courses made just for you.",
+            "url": "https://oboe.com/",
+            "snippet": "Learn anything. AI that won't make you stupid. Get started for free."
+          },
+          {
+            "title": "italki - Best language learning app with certificated tutors",
+            "url": "https://www.italki.com/",
+            "snippet": "Start real learning, see clear progressTired of app learning? Speak with a native teacherA wide variety of tutors for all levels and learning stylesIf you'd prefer to learn without a teacher, you can use italki's handy learning tools."
+          },
+          {
+            "title": "Learn Languages | LEARN101.ORG",
+            "url": "https://learn101.org/",
+            "snippet": "All our lessons are made to be easy to learn and go straight to the point. In addition, everything offered here is free for personal use."
+          },
+          {
+            "title": "27 best learning resources for developers, designers and makers",
+            "url": "https://undesign.learn.uno/learning/",
+            "snippet": "Learning Lab. Learn anything in one month alongside your day job.Learn the fundamentals of UX & UI Design, including design laws and principles, visual design, and design processes."
+          },
+          {
+            "title": "How to learn better. For some time now, learning has been... | Medium",
+            "url": "https://pedroalvarad0.medium.com/how-to-learn-better-e5a9ea3deecd",
+            "snippet": "Learning should be seen as something fun. Learning should feel like playing. The idea has been formed that learning is something boring. Learn what you love until you love to learn."
+          },
+          {
+            "title": "Computer program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_program",
+            "snippet": "A programming language is a set of keywords , symbols , identifiers , and rules by which programmers can communicate instructions to the computer."
+          },
+          {
+            "title": "Programming language - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Programming_language",
+            "snippet": "A programming language is an engineered language for expressing computer programs , 1 typically allowing software to be written in a human readable ..."
+          },
+          {
+            "title": "Program - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Program",
+            "snippet": "Look up programme , program , programming , or ... Neuro-linguistic programming , a pseudoscientific method aimed at modifying human behavior"
+          },
+          {
+            "title": "Extreme programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "snippet": "Extreme Programming Explained describes extreme programming as a software-development discipline that organizes people to produce higher-quality ..."
+          },
+          {
+            "title": "Functional programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Functional_programming",
+            "snippet": "However, programming languages often cater to several programming paradigms, so programmers using \"mostly imperative\" languages may have utilized ..."
+          },
+          {
+            "title": "Python Tutorial",
+            "url": "https://www.w3schools.com/python/",
+            "snippet": "Learn the basics of HTML in a fun and engaging video tutorial.Python is a popular programming language. Python can be used on a server to create web applications. Python is easy to learn - You will enjoy it!"
+          },
+          {
+            "title": "Learn Python - Free Interactive Python Tutorial",
+            "url": "https://www.learnpython.org/",
+            "snippet": "learnpython.org is a free interactive Python tutorial for people who want to learn Python, fast."
+          },
+          {
+            "title": "The Python Tutorial — Python 3.14.6 documentation",
+            "url": "https://docs.python.org/3/tutorial/index.html",
+            "snippet": "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming."
+          },
+          {
+            "title": "Learn Python 3 | Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-python-3",
+            "snippet": "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today.Write Python 3 programs. Simplify the code you write. Take your skills off-platform."
+          },
+          {
+            "title": "Python Full Course for Beginners - YouTube",
+            "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+            "snippet": "Master Python from scratch No fluff—just clear, practical coding skills to kickstart your journey! Want to dive deeper?-"
+          },
+          {
+            "title": "【全568集】已经替大家付费了，花7980买的Python...",
+            "url": "https://www.bilibili.com/video/BV1uX9EBMEWU/?spm_id_from=333.788.recommend_more_video.12",
+            "snippet": "【Python教程】《零基础入门学习Python》最新版（完结撒花）. 鱼C-小甲鱼. python零基础教程，Python入门到大神，AI人工智能必备."
+          },
+          {
+            "title": "zhuanlan.zhihu.com/p/627356428",
+            "url": "https://zhuanlan.zhihu.com/p/627356428",
+            "snippet": "Mermaid 使用教程：从入门到精通 - 知乎."
+          },
+          {
+            "title": "Python编程零基础入门：视频教程助你轻松掌握基础技能 - 云原生实践",
+            "url": "https://www.oryoy.com/news/python-bian-cheng-ling-ji-chu-ru-men-shi-pin-jiao-cheng-zhu-ni-qing-song-zhang-wo-ji-chu-ji-neng.html",
+            "snippet": "对于零基础的学习者来说，通过视频教程学习Python是一种高效且直观的方式。"
+          },
+          {
+            "title": "Python 零基础入门系列专栏：10... | 小白 编程 笔记",
+            "url": "https://leipynote.com/python-ling-ji-chu-ru-men-xi-lie-zhuan-lan/",
+            "snippet": "Python 3.11 Windows 超详细安装教程（一步一图 + 零基础避坑，一次成功）.Q1：没有任何编程基础，能学会Python零基础入门系列专栏吗？ A：完全可以！"
+          },
+          {
+            "title": "零编程基础自学python经验分享(保姆级Python... | 穆世明博客",
+            "url": "https://www.mushiming.com/mjyfx/156.html",
+            "snippet": "《Python编程：从入门到实践》（Eric Matthes著） - 一本非常适合初学者的书籍，通过项目导向的方式学习Python。"
+          },
+          {
+            "title": "Full text of \"IT计算机精选合集\"",
+            "url": "https://archive.org/stream/ittushu-1500/PDF/python自动化运维技术与最佳实践_djvu.txt",
+            "snippet": "Python 目 动 化 运 维. 技术 与 最 佳 实践.Automation Operations with Python Technique and Best Practices."
+          },
+          {
+            "title": "campus.ararlluf.com/category/mrds",
+            "url": "https://campus.ararlluf.com/category/mrds/",
+            "snippet": "每日大赛聚合当下热门内容，黑料每日更新，真实爆料第一时间呈现；网红翻车、明星八卦、校园风波与直播圈动态集中放送，实时吃瓜不漏瓜。畅享精彩内容，精选热门话题，快读快看，快速掌握今日大瓜与最新黑料；更多新鲜内容持续补充，热点变化随时跟进。"
+          },
+          {
+            "title": "Read the latest magazines about python数据科学 and discover...",
+            "url": "https://www.yumpu.com/xx/document/view/65682574/python",
+            "snippet": "Jupyter Notebook 支 持 许 多 编 程 语 言 (Python、R、Scala、Julia、Haskell、Ruby……), 甚 至 支 持."
+          },
+          {
+            "title": "Kimi AI with K2.6 | Better Coding, Smarter Agents",
+            "url": "https://www.kimi.com/",
+            "snippet": "Try Kimi K2.6 to build stunning, full-stack websites, use Agent Swarm for massive tasks, turn documents into reusable skills, and explore Claw Groups preview for agent teamwork."
+          },
+          {
+            "title": "AI学习入门指南：从零开始的人工智能之旅 — CyberPanda",
+            "url": "https://www.cyberpanda.me/get-started-website-with-astro-tailwind-css",
+            "snippet": "Python：AI领域的首选语言，拥有丰富的机器学习库. R语言：在数据分析和统计建模方面表现出色. SQL：数据处理的必备技能.AI学习是一个持续的过程，关键是要开始行动。 记住，最好的学习方法就是在实践中学习，在使用中理解。"
+          }
+        ],
+        "related_todo_ids": []
+      }
+    ],
+    "edges": [
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_1",
+        "relation": "precedes"
+      },
+      {
+        "from_id": "keyword_2",
+        "to_id": "keyword_4",
+        "relation": "precedes"
+      },
+      {
+        "from_id": "keyword_3",
+        "to_id": "keyword_1",
+        "relation": "enables"
+      },
+      {
+        "from_id": "keyword_3",
+        "to_id": "keyword_4",
+        "relation": "enables"
+      },
+      {
+        "from_id": "keyword_1",
+        "to_id": "keyword_4",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_1",
+        "to_id": "keyword_2",
+        "relation": "relates_to"
+      },
+      {
+        "from_id": "keyword_3",
+        "to_id": "keyword_2",
+        "relation": "relates_to"
+      }
+    ],
+    "global_summary": "本项目规划零基础Python学习路径。Python作为易学高效的面向对象编程语言，广泛应用于Web与AI等领域。学习需融合四大维度：在programming层面，需掌握语言基本规则，按需选择编程范式，团队协作可借鉴极限编程；在basics层面，需夯实OOP等底层概念，虽枯燥但是进阶基石；在learn层面，应秉持“在实践中学习”理念，结合兴趣采用项目导向法，善用交互式网站、视频及AI工具；在Python进阶中，需依赖PyPI生态深化技能。\n\n关键依赖：优质学习资源、AI辅助工具及PyPI生态。\n关键风险：基础阶段枯燥易致放弃、脱离实践导致理解不深。\n后续报告结构建议：按“语言认知-基础夯实-项目实践-进阶拓展”展开。",
+    "filtering_log": {
+      "removed_count": 0,
+      "removed_reasons": [],
+      "merged_entries": [],
+      "consistency_issues": [
+        "CoT清洗结果解析失败，使用原始数据"
+      ]
+    }
+  }
+}
