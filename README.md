@@ -170,9 +170,9 @@ PythonProject/
 ├── main.py                  # CLI 入口
 ├── requirements.txt
 ├── .env.example             # 示例配置（提交到仓库）
-├── .env                     # 真实配置（被 .gitignore 忽略，需自建）
+├── .env                     # 真实配置（需自建）
 ├── .gitignore
-├── research.db              # SQLite 数据库（运行时自动生成，已忽略）
+├── research.db              # SQLite 数据库（运行时自动生成）
 │
 ├── planner_agent/           # Planner Agent：拆解关键词+TODO
 │   ├── agent.py
