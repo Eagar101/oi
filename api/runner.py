@@ -29,22 +29,28 @@ class TaskRunner:
         self._loop_thread.start()
 
     def submit(self, task_id: str, user_id: int, query: str,
-               parent_task_id: str | None = None) -> None:
+               parent_task_id: str | None = None,
+               document_ids: list[int] | None = None) -> None:
         """提交任务到后台线程执行"""
         threading.Thread(
             target=self._run_in_thread,
-            args=(task_id, user_id, query, parent_task_id),
+            args=(task_id, user_id, query, parent_task_id, document_ids),
             daemon=True,
         ).start()
 
     def _run_in_thread(self, task_id: str, user_id: int, query: str,
-                       parent_task_id: str | None) -> None:
+                       parent_task_id: str | None,
+                       document_ids: list[int] | None) -> None:
         """在独立线程中执行Agent流水线"""
-        asyncio.run(self._run_pipeline(task_id, user_id, query, parent_task_id))
+        asyncio.run(self._run_pipeline(
+            task_id, user_id, query, parent_task_id, document_ids
+        ))
 
     async def _run_pipeline(self, task_id: str, user_id: int, query: str,
-                            parent_task_id: str | None) -> None:
-        """执行4个Agent流水线。追问任务(parent_task_id)会在父报告基础上追加章节"""
+                            parent_task_id: str | None,
+                            document_ids: list[int] | None = None) -> None:
+        """执行4个Agent流水线。追问任务(parent_task_id)会在父报告基础上追加章节；
+        document_ids 非空时，把文档摘要作为上下文注入 Planner。"""
         loop = asyncio.get_running_loop()
         is_followup = parent_task_id is not None
 
@@ -69,9 +75,19 @@ class TaskRunner:
                             f"{p.read_text(encoding='utf-8')[:3000]}\n"
                         )
 
+            # 文档上下文：对用户上传文档生成摘要，注入 Planner
+            doc_context = ""
+            if document_ids:
+                from rag_agent import RAGAgent
+                rag = RAGAgent()
+                doc_context = rag.build_doc_context(document_ids)
+
             # Step 1: Planner
             planner = PlannerAgent()
-            enriched_query = f"{query}{parent_context}" if parent_context else query
+            enriched_query = (
+                f"{query}{parent_context}{doc_context}"
+                if (parent_context or doc_context) else query
+            )
             planner_json = await loop.run_in_executor(
                 None, planner.plan_as_json, enriched_query
             )

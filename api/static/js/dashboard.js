@@ -1,6 +1,7 @@
-// 控制台逻辑：提交任务、WebSocket进度、历史列表
+// 控制台逻辑：提交任务、WebSocket进度、历史列表、文档上传勾选
 let currentTaskId = null;
 let wsConnection = null;
+let selectedDocs = new Set();
 
 const AGENT_STEPS = ['planner', 'search', 'summary', 'write'];
 const STEP_NAMES = {
@@ -16,6 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
   if (taskForm) {
     taskForm.addEventListener('submit', submitTask);
   }
+
+  // 文档上传
+  const fileInput = document.getElementById('fileInput');
+  if (fileInput) {
+    fileInput.addEventListener('change', uploadFiles);
+  }
+
+  // 加载文档库
+  loadDocuments();
 
   // 加载历史任务
   loadHistory();
@@ -39,9 +49,10 @@ async function submitTask(e) {
   btn.textContent = '提交中...';
 
   try {
+    const docIds = selectedDocs.size ? Array.from(selectedDocs) : null;
     const data = await apiCall('/tasks', {
       method: 'POST',
-      body: JSON.stringify({ query }),
+      body: JSON.stringify({ query, document_ids: docIds }),
     });
     currentTaskId = data.task_id;
     showToast('任务已提交', 'success');
@@ -264,8 +275,73 @@ async function downloadReport() {
   }
 }
 
-function escapeHtml(s) {
-  const div = document.createElement('div');
-  div.textContent = s;
-  return div.innerHTML;
+// ============ 文档库 ============
+async function loadDocuments() {
+  const container = document.getElementById('docList');
+  if (!container) return;
+  try {
+    const data = await apiCall('/documents');
+    if (!data.documents || data.documents.length === 0) {
+      container.innerHTML = '<div class="empty-state empty-sm">未选择文档</div>';
+      return;
+    }
+    container.innerHTML = data.documents.map(d => {
+      const checked = selectedDocs.has(d.id) ? 'checked' : '';
+      return `
+        <div class="doc-item-sm">
+          <label>
+            <input type="checkbox" value="${d.id}" ${checked}
+              onchange="toggleDoc(${d.id}, this.checked)">
+            <span title="${escapeHtml(d.filename)}">${escapeHtml(d.filename)}</span>
+            <span class="doc-meta-sm">${d.chunk_count}片</span>
+          </label>
+          <button class="btn-ghost btn-xs" onclick="deleteDoc(${d.id})">删</button>
+        </div>`;
+    }).join('');
+  } catch (err) {
+    container.innerHTML = `<div class="empty-state empty-sm">加载失败: ${err.message}</div>`;
+  }
+}
+
+function toggleDoc(id, checked) {
+  if (checked) selectedDocs.add(id);
+  else selectedDocs.delete(id);
+}
+
+async function uploadFiles(e) {
+  const files = Array.from(e.target.files);
+  if (!files.length) return;
+  for (const file of files) {
+    const formData = new FormData();
+    formData.append('file', file);
+    try {
+      const resp = await fetch(`${API_BASE}/documents/upload`, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${getToken()}` },
+        body: formData,
+      });
+      if (resp.status === 401) {
+        clearToken(); window.location.href = '/login'; return;
+      }
+      const data = await resp.json();
+      if (!resp.ok) throw new Error(data.detail || '上传失败');
+      showToast(`${file.name} 上传成功（${data.chunk_count}片）`, 'success');
+    } catch (err) {
+      showToast(`${file.name} 上传失败: ${err.message}`, 'error');
+    }
+  }
+  e.target.value = '';
+  loadDocuments();
+}
+
+async function deleteDoc(id) {
+  if (!confirm('确认删除该文档？')) return;
+  try {
+    await apiCall(`/documents/${id}`, { method: 'DELETE' });
+    selectedDocs.delete(id);
+    showToast('已删除', 'success');
+    loadDocuments();
+  } catch (err) {
+    showToast(err.message, 'error');
+  }
 }

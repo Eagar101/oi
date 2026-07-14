@@ -91,6 +91,13 @@ def create_app() -> FastAPI:
             return RedirectResponse(url="/login", status_code=302)
         return templates.TemplateResponse(request, "report.html", {"current_user": user})
 
+    @app.get("/chat", response_class=HTMLResponse)
+    async def chat_page(request: Request):
+        user = _get_current_user(request)
+        if not user:
+            return RedirectResponse(url="/login", status_code=302)
+        return templates.TemplateResponse(request, "chat.html", {"current_user": user})
+
     return app
 
 

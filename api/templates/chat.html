@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}文档问答 - 深度研究智能体{% endblock %}
+
+{% block content %}
+<div class="chat-page">
+  <div class="chat-layout">
+    <!-- 左侧：文档勾选 -->
+    <aside class="card doc-sidebar">
+      <h2>📄 文档库</h2>
+      <p class="card-desc">勾选检索范围，留空则搜全部</p>
+      <div id="docList" class="doc-list">
+        <div class="empty-state">加载中...</div>
+      </div>
+      <div class="doc-upload">
+        <label class="btn-ghost upload-btn">
+          ＋ 上传文档
+          <input type="file" id="fileInput" accept=".md,.markdown,.txt" hidden multiple>
+        </label>
+      </div>
+    </aside>
+
+    <!-- 右侧：问答 -->
+    <section class="card chat-main">
+      <h2>💬 文档问答</h2>
+      <div id="messageList" class="message-list">
+        <div class="empty-state">先上传文档，然后基于文档内容提问</div>
+      </div>
+      <form id="chatForm" class="chat-input-bar">
+        <textarea name="question" rows="1" required
+          placeholder="基于勾选文档提问..."></textarea>
+        <button type="submit" class="btn-primary" id="sendBtn">发送</button>
+      </form>
+    </section>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="/static/js/chat.js"></script>
+{% endblock %}

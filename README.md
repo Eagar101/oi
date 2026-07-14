@@ -17,6 +17,7 @@
 - **实时进度**：WebSocket 推送每个 Agent 的执行状态和中间数据
 - **可视化**：SVG 知识图谱、任务关系树、Agent 流水线高亮
 - **多用户**：JWT 认证 + SQLite 持久化，支持任务并发上限控制
+- **文档上传与 RAG 问答**：上传 md/txt 文档，自动切片+本地向量嵌入，文档摘要注入 Planner，并支持基于文档的 RAG 问答
 
 ---
 
@@ -161,6 +162,15 @@ python main.py --no-deep "我要学习Python基础"
 
 **WebSocket 消息类型**：`status` / `step` / `search_round` / `data` / `complete` / `error`
 
+### 文档上传与 RAG 问答
+
+| 方法 | 路径 | 说明 |
+|------|------|------|
+| POST | `/documents/upload` | 上传 md/txt（multipart `file`），解析→切片→嵌入，返回 `doc_id` |
+| GET | `/documents` | 列出当前用户文档 |
+| DELETE | `/documents/{id}` | 删除文档及其切片 |
+| POST | `/chat` | RAG 问答，body `{question, document_ids?}` |
+
 ---
 
 ## 目录结构
@@ -194,6 +204,14 @@ PythonProject/
 │
 ├── write_agent/             # Write Agent：生成 Markdown 报告
 │   ├── agent.py             # 支持追问追加章节
+│   ├── schema.py
+│   └── config.py
+│
+├── rag_agent/               # RAG Agent：文档摄入+向量检索+问答
+│   ├── agent.py             # ingest/摘要/build_doc_context/answer
+│   ├── parser.py            # md/txt 解析
+│   ├── chunker.py           # 递归文本切片
+│   ├── embedder.py          # fastembed 嵌入单例
 │   ├── schema.py
 │   └── config.py
 │
@@ -243,7 +261,36 @@ PythonProject/
 - 输出：3-5 页 Markdown 报告（执行摘要、背景、关键发现、行动项、关系分析、附录）
 - **追问模式**：读取父报告，生成 `## 追加研究：...` 章节拼接到末尾，不重写
 
+### RAG Agent（`rag_agent/`）
+- **文档摄入** `ingest()`：解析 md/txt → 递归切片（默认 500 字/100 重叠）→ 本地 fastembed 嵌入（bge-small-zh-v1.5）→ SQLite 存向量；同内容哈希去重
+- **文档摘要** `summarize_document()`：LLM 生成约 600 字摘要并缓存到 documents 表，用于注入 Planner
+- **Planner 注入** `build_doc_context()`：把勾选文档的摘要拼成 `[用户上传文档摘要]` 块，附加到 Planner 输入后，让研究规划参考自有文档
+- **RAG 问答** `answer()`：问题嵌入 → SQLite 余弦相似度检索 top_k → 拼接片段 prompt → LLM 生成回答，带来源片段和相似度分数
+
 ---
+
+## 常见问题
+
+**Q: 启动 Web 后访问 `http://0.0.0.0:8000` 失败？**
+A: `0.0.0.0` 是监听地址，浏览器请访问 `http://localhost:8000` 或 `http://127.0.0.1:8000`。
+
+**Q: Windows 终端中文乱码？**
+A: `main.py` 已自动重设 stdout/stderr 为 UTF-8，PowerShell 执行 `chcp 65001` 可进一步保险。
+
+**Q: DuckDuckGo 搜索失败？**
+A: 网络环境问题，可配置代理或重试。搜索失败会返回空列表，不影响流水线继续。
+
+**Q: LLM 触发速率限制？**
+A: 内置 3 次重试 + 递增等待（15/30/60 秒），仍失败则任务标记为 `failed`。
+
+**Q: 如何切换模型？**
+A: 修改 `.env` 的 `PLANNER_MODEL`。4 个 Agent 共享同一套 API 配置。
+
+**Q: 首次上传文档 / 问答很慢？**
+A: 首次调用嵌入会下载 ~100MB 的 `bge-small-zh-v1.5` 模型到本地缓存，之后离线运行，不再等待。
+
+**Q: RAG 问答只基于上传文档吗？**
+A: 默认是。勾选文档限定检索范围，留空则检索该用户全部文档；不会联网。
 
 ---
 

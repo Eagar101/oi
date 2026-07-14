@@ -16,6 +16,7 @@
     <div class="nav-links" id="navLinks">
       {% if current_user %}
         <a href="/dashboard">控制台</a>
+        <a href="/chat">文档问答</a>
         <span class="user-info">👤 {{ current_user.username }}</span>
         <button class="btn-ghost" onclick="logout()">退出</button>
       {% else %}

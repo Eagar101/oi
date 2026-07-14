@@ -7,6 +7,21 @@
   <section class="card submit-card">
     <h2>📝 提交研究任务</h2>
     <p class="card-desc">输入你要研究的问题，4个Agent将协作完成深度分析</p>
+
+    <!-- 文档上传与勾选 -->
+    <div class="doc-picker">
+      <div class="doc-picker-head">
+        <span>📄 参考文档（可选）</span>
+        <label class="btn-ghost upload-btn upload-sm">
+          ＋ 上传
+          <input type="file" id="fileInput" accept=".md,.markdown,.txt" hidden multiple>
+        </label>
+      </div>
+      <div id="docList" class="doc-list-sm">
+        <div class="empty-state empty-sm">未选择文档</div>
+      </div>
+    </div>
+
     <form id="taskForm">
       <div class="form-group">
         <textarea name="query" rows="4" required

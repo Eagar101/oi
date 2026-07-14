@@ -1,10 +1,10 @@
-"""FastAPI路由：认证、任务、WebSocket、报告"""
+"""FastAPI路由：认证、任务、WebSocket、报告、文档上传、RAG问答"""
 
 import json
 import uuid
 from pathlib import Path
 
-from fastapi import APIRouter, Depends, HTTPException, Query, Request, WebSocket
+from fastapi import APIRouter, Depends, File, HTTPException, Query, Request, UploadFile, WebSocket
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 
@@ -28,6 +28,12 @@ class LoginReq(BaseModel):
 class TaskReq(BaseModel):
     query: str
     parent_task_id: str | None = None
+    document_ids: list[int] | None = None
+
+
+class ChatReq(BaseModel):
+    question: str
+    document_ids: list[int] | None = None
 
 
 # ---------- 依赖注入 ----------
@@ -111,12 +117,23 @@ def create_task(
         if parent["status"] != "completed":
             raise HTTPException(status_code=400, detail="父任务尚未完成，无法基于它追问")
 
+    # 文档归属校验
+    document_ids = req.document_ids
+    if document_ids:
+        for did in document_ids:
+            doc = db.get_document(did)
+            if not doc or doc["user_id"] != user["id"]:
+                raise HTTPException(status_code=404, detail=f"文档 {did} 不存在或无权访问")
+
     task_id = str(uuid.uuid4())
-    db.create_task(task_id, user["id"], req.query, parent_task_id=parent_task_id)
-    get_runner().submit(task_id, user["id"], req.query, parent_task_id=parent_task_id)
+    doc_ids_json = json.dumps(document_ids) if document_ids else None
+    db.create_task(task_id, user["id"], req.query,
+                   parent_task_id=parent_task_id, document_ids=doc_ids_json)
+    get_runner().submit(task_id, user["id"], req.query,
+                        parent_task_id=parent_task_id, document_ids=document_ids)
 
     return {"task_id": task_id, "status": "pending", "query": req.query,
-            "parent_task_id": parent_task_id}
+            "parent_task_id": parent_task_id, "document_ids": document_ids}
 
 
 @router.get("/tasks")
@@ -238,3 +255,98 @@ async def task_ws(websocket: WebSocket, task_id: str):
         pass
     finally:
         await ws_manager.disconnect(task_id, websocket)
+
+
+# ==================== 文档上传与 RAG 问答 ====================
+
+ALLOWED_DOC_EXTS = {".md", ".markdown", ".txt"}
+MAX_DOC_SIZE = 10 * 1024 * 1024  # 10MB
+
+
+@router.post("/documents/upload")
+async def upload_document(
+    file: UploadFile = File(...),
+    user: dict = Depends(get_current_user),
+):
+    """上传 md/txt 文档，解析→切片→嵌入→入库"""
+    filename = file.filename or "unnamed.txt"
+    if not any(filename.lower().endswith(ext) for ext in ALLOWED_DOC_EXTS):
+        raise HTTPException(
+            status_code=400, detail=f"仅支持 {', '.join(ALLOWED_DOC_EXTS)} 格式"
+        )
+
+    raw = await file.read()
+    if len(raw) > MAX_DOC_SIZE:
+        raise HTTPException(status_code=413, detail="文档不能超过 10MB")
+    if not raw:
+        raise HTTPException(status_code=400, detail="文档为空")
+
+    from rag_agent import RAGAgent
+
+    rag = RAGAgent()
+    try:
+        result = await _run_in_threadpool(rag.ingest, user["id"], filename, raw)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"文档处理失败: {e}")
+
+    return result
+
+
+@router.get("/documents")
+def list_documents(user: dict = Depends(get_current_user)):
+    """列出当前用户的文档"""
+    docs = db.list_user_documents(user["id"])
+    for d in docs:
+        d["chunk_count"] = db.count_chunks(d["id"])
+    return {"documents": docs}
+
+
+@router.delete("/documents/{doc_id}")
+def delete_document(doc_id: int, user: dict = Depends(get_current_user)):
+    """删除文档及其切片"""
+    doc = db.get_document(doc_id)
+    if not doc:
+        raise HTTPException(status_code=404, detail="文档不存在")
+    if doc["user_id"] != user["id"]:
+        raise HTTPException(status_code=403, detail="无权删除该文档")
+    db.delete_document(doc_id)
+    return {"deleted": doc_id}
+
+
+@router.post("/chat")
+async def rag_chat(req: ChatReq, user: dict = Depends(get_current_user)):
+    """基于用户文档的 RAG 问答"""
+    if not req.question.strip():
+        raise HTTPException(status_code=400, detail="问题不能为空")
+
+    if req.document_ids:
+        for did in req.document_ids:
+            doc = db.get_document(did)
+            if not doc or doc["user_id"] != user["id"]:
+                raise HTTPException(
+                    status_code=404, detail=f"文档 {did} 不存在或无权访问"
+                )
+
+    from rag_agent import RAGAgent
+
+    rag = RAGAgent()
+    try:
+        result = await _run_in_threadpool(
+            rag.answer, user["id"], req.question, req.document_ids
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"问答失败: {e}")
+
+    return {
+        "answer": result.answer,
+        "sources": [s.model_dump() for s in result.sources],
+    }
+
+
+async def _run_in_threadpool(func, *args):
+    """把同步函数丢到线程池，避免阻塞事件循环"""
+    import asyncio
+    loop = asyncio.get_running_loop()
+    return await loop.run_in_executor(None, lambda: func(*args))

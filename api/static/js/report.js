@@ -310,9 +310,3 @@ function renderMarkdown(md) {
   html = html.replace(/\n{2,}/g, '\n');
   return html;
 }
-
-function escapeHtml(s) {
-  const div = document.createElement('div');
-  div.textContent = s;
-  return div.innerHTML;
-}
