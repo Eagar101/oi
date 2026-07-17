@@ -100,38 +100,54 @@ class SearchAgent:
         return self.run_from_planner(planner_output)
 
     def run_from_planner(self, planner_output: PlannerOutput) -> SearchOutput:
-        """接收PlannerOutput对象，执行多轮深度搜索"""
+        """接收PlannerOutput对象，直接以完整意图搜索，再由 LLM 生成子查询深挖"""
         keywords = planner_output.keywords
-        main_query = " ".join(keywords)
+        # 首轮查询：直奔完整意图，用 Planner 的 summary（一句话总结）
+        intent_query = planner_output.summary or " ".join(keywords)
+        # 组合查询仍作为基础补充（用于摘要与充分性评估）
+        combo_query = " ".join(keywords) if keywords else intent_query
 
-        # ---- 第1轮：每个关键词单独搜索 ----
         all_sources: list[SearchResult] = []
         searched_queries: list[str] = []
         rounds: list[SearchRound] = []
 
-        for kw in keywords:
-            print(f"  搜索关键词: {kw}")
-            results = search(kw, max_results=self.config.max_results)
-            all_sources.extend(results)
-            searched_queries.append(kw)
+        # ---- 第1轮：完整意图直接搜索 ----
+        print(f"  意图搜索: {intent_query}")
+        results = search(intent_query, max_results=self.config.max_results)
+        all_sources.extend(results)
+        searched_queries.append(intent_query)
+        rounds.append(SearchRound(
+            query=intent_query, results_count=len(results), is_deep_dive=False,
+        ))
+
+        # ---- 第2轮：关键词组合查询补充 ----
+        if combo_query != intent_query:
+            print(f"  组合搜索: {combo_query}")
+            combo_results = search(combo_query, max_results=self.config.max_results)
+            all_sources.extend(combo_results)
+            searched_queries.append(combo_query)
             rounds.append(SearchRound(
-                query=kw, results_count=len(results), is_deep_dive=False,
+                query=combo_query, results_count=len(combo_results), is_deep_dive=False,
+            ))
+
+        # ---- 第2.5轮：合乎逻辑的组合词搜索（意图 × 常见修饰维度）----
+        # 用意图拼 1-2 个有逻辑的组合词，扩大覆盖面而不发散
+        combo_suffixes = ["最佳实践 案例", "对比 优劣 2026"]
+        for suffix in combo_suffixes:
+            combo_q = f"{intent_query} {suffix}"
+            print(f"  组合词搜索: {combo_q}")
+            combo_r = search(combo_q, max_results=self.config.max_results)
+            all_sources.extend(combo_r)
+            searched_queries.append(combo_q)
+            rounds.append(SearchRound(
+                query=combo_q, results_count=len(combo_r), is_deep_dive=False,
             ))
             time.sleep(1)
 
-        # ---- 第2轮：组合查询补充 ----
-        print(f"  组合搜索: {main_query}")
-        combo_results = search(main_query, max_results=self.config.max_results)
-        all_sources.extend(combo_results)
-        searched_queries.append(main_query)
-        rounds.append(SearchRound(
-            query=main_query, results_count=len(combo_results), is_deep_dive=False,
-        ))
-
-        # ---- 第3轮+：深度搜索（如启用） ----
+        # ---- 第3轮+：深度搜索（如启用）----
         if self.config.deep_search:
             all_sources = _dedup_sources(all_sources)
-            existing_summary = self._quick_summary(main_query, all_sources)
+            existing_summary = self._quick_summary(intent_query, all_sources)
             round_num = 2
 
             while round_num < self.config.max_rounds:
@@ -156,17 +172,17 @@ class SearchAgent:
                 round_num += 1
 
                 if round_num < self.config.max_rounds:
-                    existing_summary = self._quick_summary(main_query, all_sources)
+                    existing_summary = self._quick_summary(intent_query, all_sources)
                     time.sleep(2)
 
         # 最终去重
         all_sources = _dedup_sources(all_sources)
 
         # LLM综合摘要
-        summary = self._summarize(main_query, all_sources)
+        summary = self._summarize(intent_query, all_sources)
 
         return SearchOutput(
-            query=main_query,
+            query=intent_query,
             summary=summary,
             sources=all_sources,
             raw_keywords=keywords,

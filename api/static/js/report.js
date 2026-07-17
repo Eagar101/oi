@@ -310,3 +310,8 @@ function renderMarkdown(md) {
   html = html.replace(/\n{2,}/g, '\n');
   return html;
 }
+
+// 任务树点击子任务/追问的"查看"按钮，跳转到对应报告
+function openReport(taskId) {
+  window.location.href = `/report?id=${taskId}`;
+}

@@ -16,7 +16,7 @@ class WriteConfig:
     base_url: str = os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
     model: str = os.getenv("PLANNER_MODEL", "qianfan-code-latest")
     temperature: float = float(os.getenv("WRITE_TEMPERATURE", "0.3"))
-    max_tokens: int = int(os.getenv("WRITE_MAX_TOKENS", "4096"))
+    max_tokens: int = int(os.getenv("WRITE_MAX_TOKENS", "8192"))
     output_dir: str = os.getenv("WRITE_OUTPUT_DIR", "./reports")
     template_path: str = os.getenv("WRITE_TEMPLATE_PATH", "")
 
